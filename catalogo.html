@@ -1,0 +1,374 @@
+<!-- charset-->
+  <meta charset="utf-8">
+
+  <!--viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- metadati DC -->
+  <meta name="DC.Title" content="L'Arca di San Domenico">
+  <meta name="DC.Creator" content="Melissa Macaluso">
+  <meta name="DC.Subject" content="Arca">
+  <meta name="DC.Subject" content="San Domenico">
+  <meta name="DC.Subject" content="Valorizzazione">
+  <meta name="DC.Subject" content="Digitale">
+  <meta name="DC.Description" content="Il sito web L'arca di San Domenico vuole essere un progetto di valorizzazione digitale del monumento funebre del fondatore dell'Ordine dei Predicatori. L'intento è realizzare sia un archivio che documenti l'opera in sé sia uno strumento online che agevoli la fruizione da parte del visitatore">
+  <meta name="DC.Publisher"
+      content="DAR - Dipartimento delle Arti, Alma Mater Studiorum-Università di Bologna">
+  <meta name="DC.Contributor"
+      content="Fabio Massaccesi, Francesca Tomasi">
+  <meta name="DC.Date" content="28/09/2021">
+  <meta name="DC.Type" content="Sito web">
+  <meta name="DC.Format" content="HTML/CSS/JS">
+  <link rel="DC.Identifier" href="https://melissamacaluso.github.io/melissa-repository/">
+  <meta name="DC.Source" content="Inserisci le risorse utilizzate per la realizzazione del tuo sito web">
+  <meta name="DC.Language" content="it">
+  <meta name="DC.Relation"
+      content="Inserisci dei riferimenti alle risorse collegate al sito web, possibilmente utilizzando identificazioni formali (per esempio, i codici ISBN per i libri)">
+  <link rel="DC.Coverage"
+      href="Inserisci una localizzazione per il tuo sito web, possibilmente utilizzando un vocabolario controllato (per esempio, http://www.getty.edu/research/tools/vocabularies/tgn/)">
+  <meta name="DC.Rights"
+      content="Inserisci il tipo di licenza con cui intendi proteggere il tuo sito web (per esempio, fai riferimento a una delle licenze Creative Commons: https://creativecommons.org/share-your-work/)">
+
+	<!--titolo risorsa finestra browser-->
+  <title>L'Arca di San Domenico</title>
+
+	<!--Bootstrap CSS-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
+	<!--Customized CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+  <!--Bootstrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+  <!--Google Font Trirong-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+ 
+ </head>
+
+
+
+<!--BODY-->
+<body class="body">
+  <!--Header-->
+  <header>
+
+  <!--NAVBAR BOOTSTRAP-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand logo" href="index.html"><img src="img/provabrand4.png"></a>
+	  <a class="navbar-brand" href="index.html"><b>L' Arca di San Domenico</b></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html">Home</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Catalogo<span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Esplora l'Arca
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Le sezioni</a>
+	          <a class="dropdown-item" href="#">Linea del tempo</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Artisti</a>
+	        </div>
+	      </li>
+       	<li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Approfondisci
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Le fonti</a>
+	          <a class="dropdown-item" href="#">Indaga l'iconografia</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">ojojp</a>
+	        </div>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+  </header>
+
+<!--CATALOGO--> <!--perchè text-center va dritto in centro?-->
+	<main class="background-ice">
+    <!--ITEMS--> 
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 pt-3">
+          <h2 class="text-dark text-center">Catalogo completo</h2>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- classi col-sm e col-xs rispettivamente per small devices (tablet) e extrasmall devices (mobile) -->
+        <div class="col-md-2 col-sm-2 col-xs-12 mt-4 ">
+          <aside>
+            
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Catalogo</li>
+              </ol>
+            </nav>
+          
+
+            <!-- filtri -->
+            <!-- ordina la lista -->
+            <div class="checkbox-container">
+                <h5 class="mb-0"><span class="aside-lista">Riordina la lista:</span></h5>
+                <div class="btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-outline-secondary active mt-1">
+                        <input type="radio" checked> A-Z
+                    </label>
+                    <label class="btn btn-outline-secondary mt-1">
+                        <input type="radio"> Ordine cronologico
+                    </label>
+                </div>              
+            </div>
+
+             <!-- filtra la lista -->
+            <div class="checkbox-container mt-4">
+                <h5 class="mb-0"><span class="aside-lista">Filtra la lista:</span></h5>
+                <!-- dropdown menu -->
+                <div class="dropdown dropright mt-1">
+                    <button class="btn bottone-ligthblue dropdown-toggle" type="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Autori
+                    </button>
+                      <div class="dropdown-menu p-3">
+                                      <!-- checkbox -->
+                                      <input type="radio">
+                                      <label>Nicola Pisano</label><br>
+                                      <input type="radio">
+                                      <label>Niccolò dell'Arca</label><br>
+                                      <input type="radio">
+                                      <label>Michelangelo</label><br>
+                                      <input type="radio">
+                                      <label>Girolamo Coltellini</label><br>
+                                      <input type="radio">
+                                      <label>Alfonso Lombardi</label><br>
+
+                                      
+                      </div>
+                  </div>
+
+
+                  <div class="dropdown dropright mt-1">
+                    <button class="btn btn-primary dropdown-toggle" type="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Soggetti
+                    </button>
+                      <div class="dropdown-menu p-3">
+                                      <!-- checkbox -->
+                                      <input type="radio">
+                                      <label>San Domenico</label><br>
+                                      <input type="radio">
+                                      <label>San Petronio</label><br>
+                                      <input type="radio">
+                                      <label>San Francesco</label><br>
+                                      <input type="radio">
+                                      <label>San Floriano</label><br>
+                                      <input type="radio">
+                                      <label>Sant'Agricola</label><br>
+                                      <input type="radio">
+                                      <label>San Vitale</label><br>
+                                      <input type="radio">
+                                      <label>San Procolo</label><br>
+
+                                      
+                      </div>
+                  </div>
+
+
+
+                  <div class="dropdown dropright mt-1">
+                    <button class="btn bottone-navyblue dropdown-toggle" type="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Secolo
+                    </button>
+                      <div class="dropdown-menu p-3">
+                                      <!-- checkbox -->
+                                      <input type="radio">
+                                      <label>XIII</label><br>
+                                      <input type="radio">
+                                      <label>XIV</label><br>
+                                      <input type="radio">
+                                      <label>XV</label><br>
+                                      <input type="radio">
+                                      <label>XVI</label><br>
+                                      <input type="radio">
+                                      <label>XVII</label><br>
+                                      
+                      </div>
+                  </div>
+
+
+
+                </div>
+            
+          </aside>
+
+
+        </div>
+      
+        <!--items-->
+        <div class="col-md-10 col-sm-10 col-xs-12">
+
+        <!--sezione esplorazione tutti items catalogati-->
+         <!--tab--> 
+         <div class="row">
+            <div class="col-md-12">
+              
+              
+              <ul class="nav nav-tabs mt-4">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" title="Tutti gli oggetti catalogati">All</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" title="Solo sculture catalogate">Sculture</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" title="Solo fotografie catalogate">Fotografie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" title="Solo testi catalogati">Testi</a>
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <!--Prima row item-->
+          <div class="row">
+
+            <div class="col-md-6 mt-4 colonna-items">
+              <div class="card item catalogo">
+                <span class="ml-2 mt-2 p-2"><a href="img/arcainteraverticale.jpeg" target="_blank" title="Vedi tutte le immagini del catalogo"><i class="bi bi-image"></i></a></span>
+                <img src="img/arcaintera.jpeg" class="card-img-top" alt="latofrontaleNicolaPisano">
+                <div class="card-body">
+                  <h5 class="card-title">Arca di San Domenico</h5>
+
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <span>Creatore:</span>
+                      <b>Nicola Pisano, Niccolò dell'Arca, Michelangelo Buonarroti, Alfonso Lombardi, Girolamo Coltellini</b>
+                    </li>
+                    <li class="list-group-item">
+                      <span>Data:</span>
+                      <b>1264-1532</b>
+                    </li>
+                    <li class="list-group-item">
+                      <span>Istituzione fornitrice:</span>
+                      <b>Basilica di San Domenico</b>
+                    </li>         
+                  </ul>
+
+                  <center><span class="center"><a href="item1.html" class="btn bottone-greyblue metadati">Tutti i metadati</a></span></center>
+                </div>
+              </div>           
+            </div> 
+
+           <div class="col-md-6 mt-4 colonna-items">
+            <div class="card item catalogo">
+              <span class="ml-2 mt-2 p-2"><a href="img/NP-dettaglio.jpg" target="_blank" title="Vedi tutte le immagini del catalogo"><i class="bi bi-image" style="font-size: 25px;"></i></a></span>
+              <img src="img/NP-latofrontale.jpg" class="card-img-top" alt="latofrontaleNicolaPisano">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text text-dark">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <span class="center"><a href="#" class="btn bottone-greyblue">Tutti i metadati</a></span>
+              </div>
+            </div>           
+          </div>   
+
+         
+      
+        
+
+       <!--row PAGINATION-->
+       
+        <div class="col-md-12">
+
+         <center><nav aria-label="nav-pagination ">
+            <ul class="pagination scorri-pagine">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+              </li>
+              <li class="page-item " aria-current="page">
+                <a class="page-link active" href="#">1</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </center>
+
+        </div>
+
+   
+
+
+
+
+
+       <!--chiusura div items-->
+      </div>
+
+      <!--chiusura cointeiner fluid-->
+    </section>
+  </main>
+
+
+        
+
+	
+<!--footer-- PROBLEMI DI RESPONSIVITA' IMMAGINE IN MEZZO-->
+	 <footer>
+    
+    <div class="container-fluid footer">
+
+        <div class="row-footer">
+          <div class="col-md-4 col-sm-12 col-xs-12">      
+            <p class="firma1"><em>L'Arca di San Domenico Smart</em>: un progetto di Valorizzazione Digitale per il sepolcro del Padre fondatore dell'Ordine dei Domenicani</p>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <center><span class="logo-footer"><img src="img/provabrand4.png"></span></center>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <p class="firma2" id="credits-footer">&copy; Melissa Macaluso, Corso di Digital Humanities e Patrimonio Culturale, 2020-2021, Corso di Laurea in Arti Visive, Università  di Bologna</p>
+          </div>
+          
+        </div>
+    </div>           
+   
+
+  </footer>
+
+
+
+<!--collegamento a JQuery-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+	<!--Bootstrap JS-->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+
+</html>
