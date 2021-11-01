@@ -1,11 +1,59 @@
-/*background body*/
-body {
+/*disposizione centrale*/
+.center {
+	text-align: center!important;
+}
 
+/*testo giustificato*/
+.justify{
+	text-align: justify;
+}
+
+
+/*padding e margini*/
+pb-10{ padding-top: 10px;
 
 }
 
+.mt-5 {
+	margin-top: 1.5rem!important;
+}
+
+
+.mt-6 {
+	margin-top: 5rem!important;
+}
+
+.mt-7 {
+	margin-top: 8rem !important;
+}
+
+.mt-10 {
+	margin-top: 20px !important;
+}
+
+.mb-10 {
+	margin-bottom: 20px !important;
+}
+
+.mb-5 {
+	margin-bottom: 1.5rem !important;
+}
+
+.pl-20{
+	padding-left: 20px!important;
+}
+
+.pr-20{
+	padding-right: 20px!important;
+}
+
+
 main{
 	padding-bottom: 40px;
+}
+
+#main-home{
+	paddinh-bottom: 0px!important;
 }
 
 /*colore font testo scuro*/
@@ -23,7 +71,9 @@ main{
 	
 }
 
-
+.background-dark{
+	background-color: #29000A !important;;
+}
 
 .background-peach{ 
 	background-color: #FFCC99 !important;
@@ -32,6 +82,12 @@ main{
 
 .text-peach {
 	color: #FFCC99;
+}
+
+/*Trirong text style*/
+
+.trirong{
+	font-family:'Trirong',	serif !important;;
 }
 
 /* h1, h2, h3, h4, h5 */
@@ -94,16 +150,8 @@ h2{
 	}  
 
 
-.carousel-item.img2 img {
-	background-color: #3A515F; 
-	height: 500px; 
-	width: 100%; 
-	margin: auto !important; 
-	object-fit: cover !important;
-	object-position: 0px 20% !important;
-	}  
 
-.carousel-item.img3 img {
+.carousel-item.img2 img {
 	background-color: #3A515F; 
 	height: 500px; 
 	width: 100%; 
@@ -112,7 +160,31 @@ h2{
 	object-position: 0px 2% !important;
 	}  
 
+.carousel-item.img3 img {
+	background-color: #3A515F; 
+	height: 500px; 
+	width: 100%; 
+	margin: auto !important; 
+	object-fit: cover !important;
+	object-position: 0px 50% !important;
+	}  
 
+
+/*background-arca index*/
+.background-arca {
+    background-attachment: fixed;
+    background-image: url(../img/index/cimasabn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    background-position: 0px 80%;
+}
+
+@media screen and (max-width: 420px) {
+  .background-arca {
+    background-position: -125px 80%;
+  }
+ }
 
 
 /*questa media query non funziona*/
@@ -122,6 +194,7 @@ h2{
   }
  }
 
+
 .carousel-caption {
     background-color: rgba(26, 26, 26, .7);
     left: 0;
@@ -130,32 +203,111 @@ h2{
 }
 
 
-
-/*carousel item specifico*/
-
-.card.specific{
-	margin: auto;
-	height: auto;
-	width: 70%;
-}
-
-.carousel-item.single{
-	background-color: #61879E; 
-	height: 400px;
-
+/*padding section*/
+.padding-section {	
+	padding: 25px;  
 }
 
 
-.carousel-item.single img{
-	height: 400px;
-	width: auto !important;
-	verical-align: middle !important;
+/*card storia arca, bio-domenico-strumenti*/
+
+.card.strumenti{
+	width: 95% !important;
+	height: 100%;, 
+}
+
+
+.card.storiarca, {
+	height: auto !important;
+	width: 100% !important;
 	
+	}
+
+.card.bio-domenico {
+	height: auto !important;
+	width: 100% !important;
+	
+} 
+
+.bio-domenico img {
+	object-fit: cover !important;
+}
+
+/*bottoni strumenti esplorazione home*/
+.bottone-strumenti1{
+	margin-top: 0px;
+}
+
+.bottone-strumenti2{
+		margin-top: 75px;
+  
+}
+
+ .bottone-strumenti3{
+ 	margin-top: 97px;
+
+ }
+
+ .bottone-approfondimenti1{
+ 	margin-top: 70px;
+ }
+
+.bottone-metadati1{
+	margin-top: 60px;
 }
 
 
-.card-intro{
-	background-color: #FAFCF6 !important;
+.bottone-metadati2{
+	margin-top: 70px;
+}
+
+.bottone-metadati3{
+	margin-top: 8px;
+}
+
+
+
+/*tabs*/
+.nav-tabs .nav-link.active{
+	background-color: #FAFCF6!important;
+}
+
+.d-block{
+	display: d-block!important;
+.
+}
+
+
+/*immagine item persona*/
+.sfondo-persona{
+	background-color: lightgrey;
+
+}
+
+.persona img {
+	height: 400px !important;
+  width: 50%!important;
+}
+
+
+@media screen and (max-width: 420px) {
+  .persona img {
+    width: 50%!important;
+    height: auto!important;
+  }
+ }
+
+
+/*filtri*/
+.dropdown-menu.filtri1 {
+	min-width: 15rem !important ;
+}
+
+.dropdown-menu.filtri2 {
+	min-width:8rem !important ;
+}
+.dropdown-menu.filtri3 {
+	min-width: 8rem !important ;
 }
 
 /*card catalogo metadati item*/
@@ -170,12 +322,16 @@ h2{
 	object-fit: cover !important ;
 }
 
+.card-img-top.petronio img{
+	object-position: 0px 5%!important;
+}
+
 .card.catalogo:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
  
 .card.catalogo{
-	height: 80%;
+	height: 50%;
 	width: auto;
 }
 
@@ -184,23 +340,70 @@ h2{
 	margin: auto;
 }
 
-/*tabs*/
-.nav-tabs .nav-link.active{
+
+/*pagination*/
+.scorri-pagine{
+	justify-content: center;
+	background-color: !important ;
+
+}
+
+ul.pagination li.page-item a.page-link{
+	background-color: #FAFCF6 !important ;
+}
+
+ul.pagination li.page-item a.page-link.active{
+	background-color: #007bff !important;
+	color: white;
+}
+
+
+/*carousel item specifico*/
+
+.card.specific{
+	margin: auto;
+	height: auto;
+	width: 100%;
+}
+
+.carousel-item.single{
+	background-color: lightgrey; 
+	height: auto! important;
+	width: 100% !important;
+
+}
+
+
+.carousel-item.single img{
+	height: 400px !important;
+	width: auto !important;
+	
+}
+
+.carousel-control-prev, .carousel-control-next {
+	opacity: 0.5!important;
+}
+
+.card-intro{
 	background-color: #FAFCF6 !important;
 }
 
-.d-block{
-	display: d-block!important;
-.
-}
 
 /*bottoni*/
 
 .bottone-greyblue {
-    background-color: #61879E !important;
-    border: 1px solid #61879E !important;
-    color: #FFFFFF !important;
-    cursor: pointer !important;
+  background-color: #61879E !important;
+  border: 1px solid #61879E !important;
+  color: #FFFFFF !important;
+  cursor: pointer !important;
+}
+
+.bottone-greyblue:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
+}
+
+.btn.bottone-greyblue.aside{
+	margin-top: 10px !important;
 }
 
 .bottone-ligthblue {
@@ -218,58 +421,21 @@ h2{
 
 }
 
-/*padding section*/
-.padding-section {	
-	padding: 25px;
-	;
-   
-   
-}
-
-/*section strumenti*/
-
-/*se faccio zoom per rimpicciolire sballa il bottone catalogo*/
-.bottone-strumenti1{
-	margin-top: 0px ;
-}
-
-.bottone-strumenti2{
-		margin-top: 75px;
-  
-}
-
- .bottone-strumenti3{
- 	margin-top: 97px;
-
- }
-
-
-
-.row.items{
-	display: flex;
-}
-
-
-
-.background-arca {
-    background-attachment: fixed;
-    background-image: url(../img/cimasabn.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 3rem;
-    background-position: 0px 80%;
-}
-
-@media screen and (max-width: 420px) {
-  .background-arca {
-    background-position: -125px 80%;
-  }
- }
 
 
 
 
-/*sistema questo padding bottom*/
+
+
+
+
+
+
+
+
+
+
+
 .pb-5{
   padding-bottom: 30rem !important;
 }
@@ -285,20 +451,9 @@ h2{
 }
 
 
-.card.strumenti{
-	width: 95% !important;
-	height: 100%;
-}
 
-.card.storiarca {
-	height: auto !important;
-	width: 100% !important;
-	
-	}
 
-.container-fluid.storiarca {
-	
-}
+
 
 
 .colonna-items{
@@ -316,20 +471,53 @@ h2{
 	height: 100% !important;
 	}
 
-/*pagination*/
-.scorri-pagine{
-	justify-content: center;
-	background-color: !important ;
-
-
-}
-ul.pagination li.page-item a.page-link{
-	background-color: #FAFCF6 !important ;
+.card.item.catalogo img{
+	width: auto;
+	height: 300px;
+	object-fit: cover;
 }
 
-ul.pagination li.page-item a.page-link.active{
-	background-color: #007bff !important;
-	color: white;
+
+/*Card collegamenti centrali*/
+
+.collegamento-centrale:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.collegamento-centrale{
+	width: 90%;
+	height: 100%;
+}
+
+
+.collegamento-centrale img {
+	width: 100%!important;
+	object-fit: cover!important;
+}
+
+/*card aside*/
+.collegamento:hover{
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.collegamento.aside .youtube {
+	width: 50%;
+	margin: 20px;
+}
+
+.collegamento .play{
+	background-image: url(../img/persone/framepaolucci.PNG);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.collegamento.legenda {
+	width: 70%;
+	margin: 20px;
+}
+
 }
 
 /*Footer*/
@@ -338,7 +526,7 @@ footer {
 	}
 
 .container-fluid.footer {
-	background-color: ; 
+	background-color:#FFCC99 ; 
 	color: #331a00;
 	width: auto;
 	padding: 35px !important;
@@ -364,25 +552,21 @@ footer {
 
 .firma1
 {
-	text-align: justify !important;
 	width: 80%;
 	height: auto;
 	color: #29000A;
 	margin-top: revert !important;
 	margin-right: 0px !important;
-	float: right !important;
-		
+			
 }
 
 .firma2
 {
-	text-align: justify !important;
 	width: 80%;
 	height: auto;
 	color: #29000A;
 	margin-top: revert !important;
-	float: left !important;
-
+	
 		
 }
 
@@ -413,25 +597,14 @@ iframe{
 
 
 
-pb-10{ padding-top: 10px;
-
-}
-
-
-
-
-
-
-
-
-
 
 
 /*breadcrumb*/
-.breadcrumb{
-	background-color: #FAFCF6 !important;
-	padding-left: 0px !important;
-	padding: 0px !important;
+
+.breadcrumb {
+	background-color: #FAFCF6!important;
+	padding-left: 0px!important;
+	padding: 0px!important;
 }
 
 .breadcrumb-item {
