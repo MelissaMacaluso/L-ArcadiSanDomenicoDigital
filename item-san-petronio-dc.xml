@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <mp:metadata xmlns:mp="http://example.org/MyProject/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdwalite= "http://www.getty.edu/CDWA/CDWALite/CDWALite-xsd-public-v1-1.xsd">
+        <item n="0800024755" xml:id="SW-0800024755">
+            <dc:title >San Petronio</dc:title>
+            <cdwalite:titleWrap>
+                <cdwalite:titleSet>San Petronio</cdwalite:titleSet>
+                <cdwalite:sourceTitle>Catalogo Generale dei Beni culturali</cdwalite:sourceTitle>
+            </cdwalite:titleWrap> 
+            <dc:creator xsi:type="VIAF" mp:ref="https://viaf.org/viaf/30311644/">Buonarroti, Michelangelo</dc:creator>
+            <cdwalite:indexingCreatorWrap>
+            <cdwalite:indexingCreatorSet>
+                <cdwalite:nameCreatorSet> <cdwalite:nameCreator type="personalName"
+                termsource="ULAN" termsourceID="ulan500010654">Buonarroti, Michelangelo</cdwalite:nameCreator>
+                </cdwalite:nameCreatorSet>
+                    <cdwalite:nationalityCreator>Italiana</cdwalite:nationalityCreator>
+                 <cdwalite:vitalDatesCreator birthdate="1475" deathdate="1564">1475-1564</cdwalite:vitalDatesCreator>
+                    <cdwalite:roleCreator>scultore</cdwalite:roleCreator>
+                </cdwalite:indexingCreatorSet>
+            </cdwalite:indexingCreatorWrap>
+            <!--soggetto scultura-->
+            <dc:subject xsi:type="dcterms:DDC">730</dc:subject>            
+            <!--soggetto rinascimento-->
+            <dc:subject xsi:type="dcterms:UDC">7.034</dc:subject>
+            <!--soggetto monumento funerario-->
+            <dc:subject xsi:type="dcterms:LLC">Sepulchral monuments</dc:subject>
+            <dc:subject>Statua</dc:subject>
+            <dc:subject>San Petronio</dc:subject>
+            <cdwalite:classificationWrap>
+                <cdwalite:classification termsource="AAT" termsourceID="aat300033618">scultura</cdwalite:classification>
+            </cdwalite:classificationWrap>
+            <dc:type>scultura</dc:type>
+            <cdwalite:objectWorkTypeWrap>
+                <cdwalite:objectWorkType termsource="AAT" termsourceID="aat300005909">monumento funebre</cdwalite:objectWorkType>
+            </cdwalite:objectWorkTypeWrap>
+            <dc:description>La statua di San Petronio fu realizzata tra il 1494 e il 1495 da Michelangelo Buonarroti per il monumento funebre dedicato a San Domenico di Guzmán conservata nella Basilica di San Domenico. L'opera richiama la statua dell'omononimo Santo di Jacopo della Quercia presente nel portale centrale della Basilica di San Petronio a Bologna.</dc:description>
+            <cdwalite:descriptiveNoteWrap>
+                <cdwalite:descriptiveNoteSet><cdwalite:descriptiveNote>La statua di San Petronio fu realizzata tra il 1494 e il 1495 da Michelangelo Buonarroti per il monumento funebre dedicato a San Domenico di Guzmán conservata nella Basilica di San Domenico. L'opera richiama la statua dell'omononimo Santo di Jacopo della Quercia presente nel portale centrale della Basilica di San Petronio a Bologna.</cdwalite:descriptiveNote></cdwalite:descriptiveNoteSet>
+            </cdwalite:descriptiveNoteWrap> 
+            <cdwalite:styleWrap>
+                <cdwalite:style termsource="AAT" termsourceID="aat300021140">Rinascimento</cdwalite:style>
+            </cdwalite:styleWrap>
+            <dc:publisher>Istituto Centrale per il Catalogo e la Documentazione</dc:publisher>
+            <dc:contributor>Sopraintendenza per i Beni Storici Artistici ed Etnoantoropologici per le province di Bologna Ferrara Forlì-Cesenza</dc:contributor>        
+            <dc:date>1494-1495</dc:date>
+            <cdwalite:indexingDatesWrap>
+                <cdwalite:indexingDatesSet> <cdwalite:earliestDate>1494</cdwalite:earliestDate>
+                <cdwalite:latestDate>1494</cdwalite:latestDate>
+                </cdwalite:indexingDatesSet>
+            </cdwalite:indexingDatesWrap> 
+            <dc:format>70</dc:format>
+            <cdwalite:indexingMaterialsTechWrap>
+                <cdwalite:indexingMaterialsTechSet>
+                    <cdwalite:termMaterialsTech termsource="AAT" termsourceID="aat300011443">marmo</cdwalite:termMaterialsTech>
+                </cdwalite:indexingMaterialsTechSet>
+            </cdwalite:indexingMaterialsTechWrap>         
+            <dc:identifier>https://www.catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0800024755</dc:identifier>
+            <cdwalite:recordWrap>
+                <cdwalite:recordID>0800024755</cdwalite:recordID>
+                <cdwalite:recordType>oggetto d'arte</cdwalite:recordType>
+                <cdwalite:recordSource>Catalogo Generale dei Beni Culturali</cdwalite:recordSource>
+            </cdwalite:recordWrap>           
+            <dc:source xml:id="CGBC">Catalogo Generale dei Beni Culturali</dc:source>
+            <dc:language>it</dc:language>
+            <dc:relation></dc:relation>
+            <dc:coverage xsi:type="TGN" mp:ref="http://vocab.getty.edu/page/tgn/7003127">Bologna</dc:coverage>
+            <dc:coverage>XV secolo</dc:coverage>
+            <dc:provenance>Basilica di S. Domenico</dc:provenance>
+            <cdwalite:locationWrap>
+                <cdwalite:locationSet>
+                    <cdwalite:locationName type="currentRepository" identifier="BSD">Basilica di San Domenico (Bologna, Italia)</cdwalite:locationName>
+                </cdwalite:locationSet>
+            </cdwalite:locationWrap>
+            <dc:rights>Proprietà dello Stato</dc:rights>
+            <cdwalite:rightsWork>Proprietà Stato</cdwalite:rightsWork>
+        </item>            
+    </mp:metadata>
