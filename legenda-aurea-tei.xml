@@ -1,0 +1,78 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>La Legenda Aurea</title>
+				<author xml:id="IDV">Iacopo da Varazze</author>
+				<editor role="editor" xml:id="AVB">Alessandro Vitale Brovarone</editor>
+				<editor role="editor" xml:id="LVB">Lucetta Vitale Brovarone</editor>
+			<respStmt>
+				<resp>Marcatura</resp>
+				<name xml:id="MM">Melissa Macaluso</name>						
+			</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>DAR-Dipartimenti delle Arti</publisher>
+				<pubPlace>Bologna</pubPlace>
+				<date when="2021"/>
+				<availability>
+					<p>Available under licence only</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+				 <monogr>
+				  <author>Iacopo da Varazze</author>
+				  <editor>Alessandro Vitale Brovarone</editor>
+				  <editor>Lucetta Vitale Brovarone</editor>
+				  <title>Legenda Aurea</title>
+				  <edition>Prima edizione</edition>
+				  <imprint>
+				   <publisher>Giulio Einaudi editore</publisher>
+				   <pubPlace>Torino</pubPlace>
+				   <date>2007</date>
+				  </imprint>
+				 </monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Marcatura riguradante nomi propri, luoghi, date, discorsi diretti.</p>
+		</encodingDesc>
+		<profileDesc>
+		 <langUsage>
+		  <language ident="it">Italian</language>
+		 </langUsage>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<!--section from 1 to 62 here-->
+			<div1 type="part">
+				<head>
+					<hi rend="italic">Le feste che ricorrono nel periodo della peregrinazione</hi>
+				</head>			
+				<div2 type="chapter" n="63">
+					<head>CXIII. SAN DOMENICO</head>
+					<!--subsection from 1 to 26 here-->
+					<div3 type="subsection" n="63.27">
+						<p>Quando giunse per <name type="person" resp="#MM" xml:id="SD">Domenico</name>il momento del suo passaggio, cadde gravemente ammalato a <name type="city" resp="#MM" xml:id="BO">Bologna</name>. La sua liberazione dal corpo gli era già apparsa in visione. Un giovane bellissimo lo chiamava a sé con queste parole: <q type="spoken" who="#SD">- Vieni, amato mio, vieni alla gioia, vieni!</q></p>
+						<p>Chiamati a sé i dodici frati del convento di <name ref="BO" type="city"> Bologna</name>, fece testamento, per non lasciarli orfani e diseredati. Disse loro: <q type="spoken" who="#SD" resp="#MM">-Queste sono le cose che vi lascio come a dei figli in eredità, di modo che voi le possediate a pieno diritto. Avete la carità, conservate l’umiltà, possedete la povertà volontaria.</q></p>
+						<p>Vietò con tutta la fermezza di cui era capace di portare con sé nell’Ordine possessi temporali, lanciando con veemenza la maledizione di Dio e la sua su chi avesse osato macchiare l’Ordine del fango delle ricchezze terrene. Parlò ai frati, che non riuscivano a consolarsi con il pensiero di trovarsi tra poco senza di lui, e li consolò con dolcezza:<q type="spoken" who="#SD">
+						-Non vi rattristi, figli miei, la partenza del mio corpo. Non abbiate paura: vi sarò più utile da morto che da vivo.</q> Giunse poi all’ultima sua ora, e si addormentò nel Signore nel <name type="date" resp="#MM">1221</name>.</p>
+					</div3>
+					<div3 type="subsection" n="63.28">
+						<p>La sua morte si manifestò nello stesso giorno e nella stessa ora a <name type="person" xml:id="FG">frate Guali</name>, priore dei frati predicatori di <name type="city" xml:id="BR">Brescia</name> e poi vescovo della stessa città, nel modo che segue. Dormiva d’un sonno leggero nel campanile dei frati, con la testa appoggiata al muro, quando vide aprirsi il cielo e scendere a terra due scale bianche, alla sommità delle quali stava <name type="person" xml:id="GC">Cristo</name> con <rs type="person" xml:id="VM" resp="#MM">sua madre</rs>, e gli angeli salivano e scendevano festanti. In mezzo fra le due scale c’era un seggio, e sopra di esso stava seduto un frate, col capo velato. <name ref="#GC">Gesù</name> e <rs ref="VM">sua madre</rs> tiravano le scarpe verso l’alto e l’apertura del cielo si rinchiuse. Quando poi quel <name ref="#FG" type="person">frate</name> di <name ref="#BR" type="city">Brescia</name> andò a <name ref="#BO" type="city">Bologna</name> venne a sapere che lo stesso giorno e la stessa ora il padre era salito al cielo.</p>
+					</div3>
+					<div3 type="subsection" n="63.29">
+						<p>Un frate di nome <name type="person" xml:id="FR">Rao</name>, nei pressi di <name type="city" xml:id="TI" resp="#MM">Tivoli</name>, lo stesso giorno e la stessa ora che il padre lasciò le sue spoglie umane, stava avvicinandosi all’altare per celebrare la messa. Avendo sentito dire che <name ref="#SD">Domenico</name> era ammalato a <name ref="#BO" type="city">Bologna</name>, volendo pregare per la sua guarigione, giunto a quella parte del canone della messa in cui si dice il memento dei vivi, subito fu rapito in estasi e vide l’uomo del Signore coronato d’una corona d’oro, rifulgente d’una luce prodigiosa, in compagnia di due uomini d’aspetto venerando, e incedeva per la via Regia lasciandosi alle spalle Bologna. Prese nota del giorno e dell’ora, e venne a sapere che proprio in quel momento il servo di Dio <name ref="#SD" type="person">Domenico</name> era morto.</p>
+					</div3>
+					<div3 type="subsection" n="63.30">
+						<p>Il suo corpo rimase per qualche tempo sepolto, ma i miracoli che succedevano attorno a esso erano di giorno in giorno più numerosi, e perciò non poteva più essere tenuta nascosta la sua santità. La devozione dei fedeli ritenne giusto che il suo corpo fosse trasferito in un luogo più solenne. Non appena ruppero coi ferri la malta e alzarono la pietra tombale, all’apertura del sepolcro uscì un odore così delizioso che non parve fosse stato aperto un sepolcro, ma una dispensa di profumi. Quell’odore era più buono di quello di tutti gli aromi, e non si conosceva nulla al mondo che avesse un simile profumo: e l’odore non si trovava solo sulle ossa o nella polvere del santo corpo, o nella cassa, ma anche in tutta la terra ammucchiata intorno, tanto che, anche portata in regioni lontane, manteneva per lungo tempo lo stesso odore. Aderì alle mani dei frati, che in qualche modo volevano toccare parte delle reliquie, così profondamente che anche lavandole o sfregandole mantennero per molto tempo sensibile testimonianza di quell’odore.</p>
+					</div3>
+
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI>
