@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:dc= "http://purl.org/dc/elements/1.1/"
+xmlns:dcterms="http://purl.org/dc/terms/" 
+xmlns:arco="https://w3id.org/arco/ontology/arco"
+xmlns:a-cd="https://w3id.org/arco/ontology/context-description/">
+
+  <rdf:Description rdf:about="https://w3id.org/arco/resource/PhotographicHeritage/0800640711">  
+    <dc:title>Fotografie dei particolari eseguite in occasione del trasporto della salma di S. Domenico nel rifugio</dc:title>
+    <dcterms:creator rdf:resource="http://viaf.org/viaf/140821088"/>
+    <dc:date>1943</dc:date>
+    <dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=18073"/>
+    <dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=13111"/>
+    <dcterms:subject rdf:resource="https://thes.bncf.firenze.sbn.it/termine.php?id=7069"/>
+    <dc:description>Il servizio è costituito da 21 lastre negative originariamente contenute in pergamino; tali buste, con iscrizioni e annotazioni, si conservano separatamente. Su alcune lastre, N_002197- N_002199, N_002207, N_002217 e N_002218, sono visibili le impronte del portalastre</dc:description>
+    <dc:publisher>Istituto Centrale per il Catalogo e la Documentazione</dc:publisher>
+    <dc:type>negativo servizio </dc:type>      
+    <arco:numberOfElements>21</arco:numberOfElements>
+    <rdfs:label xml:lang="it">Bene fotografico</rdfs:label>      
+    <dc:format>vetro</dc:format>
+    <dc:format>gelatina ai salid'argento</dc:format>
+    <arco:regionIdentifier>08</arco:regionIdentifier>
+    <dc:identifier>0800640711 </dc:identifier>
+    <arco:uniqueIdentifier>0800640711</arco:uniqueIdentifier>
+    <dc:source>https://catalogo.beniculturali.it/detail/PhotographicHeritage/0800640711</dc:source>
+    <a-cd:isArchivalUnitMemberOf>https://w3id.org/arco/resource/ArchivalFonds/soprintendenza-archeologia-belle-arti-e-paesaggio-per-la-citta-metropolitana-di-bologna-e-le-province-di-modena-reggio-emilia-e-ferrara-bologna-fondo-negativi-soprintendenza-abap</a-cd:isArchivalUnitMemberOf>
+    <dc:languge>it</dc:languge>
+    <dc:coverage>Bologna (BO)</dc:coverage>
+    <dc:rights>Proprietà dello Stato</dc:rights>
+    <a-cd:hasOwner>Ministero Dei Beni E Delle Attività culturali e Del Turismo</a-cd:hasOwner>
+    <dc:coverage>Bologna (BO)</dc:coverage>
+    <dc:language>it</dc:language>
+  </rdf:Description>
+
+
+</rdf:RDF>
