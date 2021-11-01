@@ -1,209 +1,231 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-	<!-- charset-->
-  <meta charset="utf-8">
 
-  <!--viewport-->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--HEAD-->
+	<head>
+		<!-- charset-->
+	  <meta charset="utf-8">
 
-  <!-- metadati DC -->
-  <meta name="DC.Title" content="L'Arca di San Domenico">
-  <meta name="DC.Creator" content="Melissa Macaluso">
-  <meta name="DC.Subject" content="Arca">
-  <meta name="DC.Subject" content="San Domenico">
-  <meta name="DC.Subject" content="Valorizzazione">
-  <meta name="DC.Subject" content="Digitale">
-  <meta name="DC.Description" content="Il sito web L'arca di San Domenico vuole essere un progetto di valorizzazione digitale del monumento funebre del fondatore dell'Ordine Domenicano">
-  <meta name="DC.Publisher"
-      content="Inserisci un riferimento all'ente che si occupa della pubblicazione del tuo sito web">
-  <meta name="DC.Contributor"
-      content="Inserisci i nomi e i cognomi di coloro che hanno contribuito alla realizzazione del tuo sito web">
-  <meta name="DC.Date" content="28/09/2021">
-  <meta name="DC.Type" content="Sito web">
-  <meta name="DC.Format" content="HTML/CSS/JS">
-  <link rel="DC.Identifier" href="https://www.nomedelsitoweb.github.io">
-  <meta name="DC.Source" content="Inserisci le risorse utilizzate per la realizzazione del tuo sito web">
-  <meta name="DC.Language" content="it">
-  <meta name="DC.Relation"
-      content="Inserisci dei riferimenti alle risorse collegate al sito web, possibilmente utilizzando identificazioni formali (per esempio, i codici ISBN per i libri)">
-  <link rel="DC.Coverage"
-      href="Inserisci una localizzazione per il tuo sito web, possibilmente utilizzando un vocabolario controllato (per esempio, http://www.getty.edu/research/tools/vocabularies/tgn/)">
-  <meta name="DC.Rights"
-      content="Inserisci il tipo di licenza con cui intendi proteggere il tuo sito web (per esempio, fai riferimento a una delle licenze Creative Commons: https://creativecommons.org/share-your-work/)">
+	  <!--viewport-->
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!--titolo risorsa finestra browser-->
-  <title>L'Arca di San Domenico</title>
+	  <!-- metadati DC -->
+	  <meta name="DC.Title" content="L'Arca di San Domenico">
+	  <meta name="DC.Creator" content="Melissa Macaluso">
+	  <meta name="DC.Creator.PersonalName.Address" content="melissa.macaluso@studio.unibo.it">
+	  <meta name="DC.Subject" content="Arca">
+	  <meta name="DC.Subject" content="San Domenico">
+	  <meta name="DC.Subject" content="Valorizzazione">
+	  <meta name="DC.Subject" content="Digitale">
+	  <meta name="DC.Subject" content="Arti visive">
+	  <meta name="DC.Description" content="Il sito web L'arca di San Domenico vuole essere un progetto di valorizzazione digitale del monumento funebre del fondatore dell'Ordine dei Predicatori. L'intento è realizzare sia un archivio che documenti l'opera in sé sia uno strumento online che agevoli la fruizione da parte del visitatore">
+	  <meta name="DC.Publisher"
+	      content="DAR - Dipartimento delle Arti, Alma Mater Studiorum-Università di Bologna">
+	  <meta name="DC.Contributor"
+	      content="Melissa Macaluso">
+	  <meta name="DC.Date" content="04/11/2021">
+	  <meta name="DC.Type" content="Sito web">
+	  <meta name="DC.Format" content="HTML/CSS/JS">
+	  <link rel="DC.Identifier" href="https://melissamacaluso.github.io/melissa-repository/">
+	  <meta name="DC.Source" content="https://timeline.knightlab.com/">
+	  <meta name="DC.Source" content="http://www.iccd.beniculturali.it/it/sigec-web">
+	  <meta name="DC.Language" content="it">
+	  <meta name="DC.Relation"
+	      content="https://sandomenicobologna.it/">
+	  <meta name="DC.Coverage"
+	      content="http://vocab.getty.edu/page/tgn/7003127">
+	  <meta name="DC.Rights"
+	      content="http://creativecommons.org/licenses/by-nc-sa/4.0/">
 
-	<!--Bootstrap CSS-->
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<!--titolo risorsa finestra browser-->
+	  <title>L'Arca di San Domenico Digital</title>
 
-	<!--Customized CSS-->
-	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+		<!--Bootstrap CSS-->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 
-  <!--Bootstrap icons-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+		<!--Customized CSS-->
+		<link rel="stylesheet" type="text/css" href="css/style.css"> 
 
-  <!--Google Font Trirong-->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+	  <!--Bootstrap icons-->
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 
- 
- </head>
+	  <!--Google Font Trirong-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
 
-
-
-<!--BODY-->
-<body class="body">
-  <!--Header-->
-  <header>
-
-  <!--NAVBAR BOOTSTRAP-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-	  <a class="navbar-brand logo" href="#"><img src="img/provabrand4.png"></a>
-	  <a class="navbar-brand" href="#"><b>L' Arca di San Domenico</b></a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="catalogo.html">Catalogo</a>
-	      </li>
-	      <li class="nav-item dropdown">
-	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Esplora l'Arca
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-	          <a class="dropdown-item" href="#">Le sezioni</a>
-	          <a class="dropdown-item" href="#">Linea del tempo</a>
-	          <div class="dropdown-divider"></div>
-	          <a class="dropdown-item" href="#">Artisti</a>
-	        </div>
-	      </li>
-       	<li class="nav-item dropdown">
-	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Approfondisci
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-	          <a class="dropdown-item" href="#">Le fonti</a>
-	          <a class="dropdown-item" href="#">Indaga l'iconografia</a>
-	          <div class="dropdown-divider"></div>
-	          <a class="dropdown-item" href="#">xxx</a>
-	        </div>
-	      </li>
-	    </ul>
-	  </div>
-	</nav>
-
-  </header>
-
-<!--BOOSTRAP CAROUSEL-->
-	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-		  <ol class="carousel-indicators">
-		    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-		    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-		    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-		  </ol>
-		  <div class="carousel-inner">
-		    <div class="carousel-item active img1">
-		      <img src="img/NP-dettaglio.jpg" id="imgcarousel" class="d-block w-100" alt="...">
-		      <div class="carousel-caption d-none d-md-block">
-		        <h5><em>L'Arca di San Domenico Smart</em></h5>
-		        <p>Un progetto di valorizzazione digitale per il monumento funebre del Padre Fondatore dei Domenicani</p>
-		        <a href="#progetto"><button type="button" class="btn bottone-greyblue">Scopri il progetto</button></a>  
-		        <a href="catalogo.html"><button type="button" class="btn bottone-greyblue">Sfoglia il Catalogo</button></a>
-		      </div>
-		    </div>
-		    <div class="carousel-item img2">
-		      <img src="img/NP-latofrontale.jpg" class="d-block w-100" id="imgcarousel" alt="...">
-		      <div class="carousel-caption d-none d-md-block">
-		      	<h5>Second slide label</h5>
-		        <p>Some representative placeholder content for the second slide.</p>
-		        <button type="button" class="btn bottone-greyblue">Esplora l'Arca</button>
-		      </div>
-		    </div>
-		    <div class="carousel-item img3">
-		      <img src="img/4patronicarousel.jpeg" class="d-block w-100" id="imgcarousel" alt="...">
-		      <div class="carousel-caption d-none d-md-block">
-		        <h5>Third slide label</h5>
-		        <p>Some representative placeholder content for the third slide.</p>
-		        <button type="button" class="btn bottone-greyblue">Linea del tempo</button>
-		      </div>
-		    </div>
-		  </div>
-		  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
-		</div>
+	 
+	 </head>
 
 
-		<!--sezione IL PROGETTO-->
+
+	<!--BODY-->
+	<body class="body">
+	  <!--Header-->
+	  <header>
+
+	  <!--NAVBAR BOOTSTRAP-->
+		  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <a class="navbar-brand logo" href="#"><img src="img/logo/provabrand4.png" alt="logo del progetto"></a>
+			  <a class="navbar-brand" href="#"><b>L' Arca di San Domenico Digital</b></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="catalogo.html">Catalogo</a>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Esplora
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="#">Le sezioni dell'Arca</a>
+			          <a class="dropdown-item" href="lineadeltempo.html">Linea del tempo</a>
+			        </div>
+			      </li>
+		       	<li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Approfondisci
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="#">I servizi fotografici <br>di A. Villani&figli</a> 
+			          <a class="dropdown-item" href="#">Una cosmografia sacra</a>
+			          
+			        </div>
+			      </li>
+			    </ul>
+			    <form class="form-inline my-2 my-lg-0">
+			      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
+		    </form>
+			  </div>
+			</nav>
+
+	  </header>
+
+	<!--BOOSTRAP CAROUSEL-->
+		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+			  <ol class="carousel-indicators">
+			    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="carousel-item active img1">
+			      <img src="img/index/NP-dettaglio.jpg" class="d-block w-100" alt="Dettaglio tratto dal sarcofago di Nicola Pisano">
+			      <div class="carousel-caption d-none d-md-block">
+			        <h3 class="trirong"><em>L'Arca di San Domenico Digital</em></h3>
+			        <p>Un progetto di valorizzazione digitale per il monumento funebre del Padre Fondatore dei Domenicani</p>
+			        <a href="#progetto"><button type="button" class="btn bottone-greyblue">Scopri il progetto</button></a>  
+			        <a href="catalogo.html"><button type="button" class="btn bottone-greyblue">Sfoglia il Catalogo</button></a>
+			        <p class="caption-carousel mt-10">Immagine: <em>Nicola Pisano, San Domenico resuscita il giovane Napoleone Orsini, 1264-1267, Basilica di S. Domenico, Bologna</em></p>
+			      </div>
+			    </div>
+			    <div class="carousel-item img2">
+			      <img src="img/index/4patronicarousel.jpeg" class="d-block w-100" alt="I patroni della città di Bologna">
+			      <div class="carousel-caption d-none d-md-block">
+			      	<h3 class="trirong">Esplora l'Arca</h3>
+			        <p>Scopri le varie sezioni del monumento e la storia della costruzione</p>
+			        <button type="button" class="btn bottone-greyblue">Sezioni dell'Arca</button>
+			        <a href="lineadeltempo.html"><button type="button" class="btn bottone-greyblue">Linea del tempo</button></a>
+			        <p class="caption-carousel mt-10">Immagine: <em>Niccolò dell'Arca, Michelangelo Buonarroti, San Francesco, San Petronio, San Domenico, San Vitale, 1469-1495, Basilica di S. Domenico, Bologna</em></p>
+			      </div>
+			    </div>
+			    <div class="carousel-item img3">
+			      <img src="img/index/sigec-villani-arca-smontata.jpg" class="d-block w-100"  alt="Esposizione dei pezzi dell'Arca fatta in occasione del trasporto della Salma nel rifugio">
+			      <div class="carousel-caption d-none d-md-block">
+			        <h3 class="trirong">Approfondisci</h3>
+			        <p>Approfondisci le interpretazioni attorno all'Arca e la campagna fotografica di A. Villani&figli</p>
+			        <a href="lineadeltempo.html"><button type="button" class="btn bottone-greyblue">Servizi fotografici dello Studio Villani</button></a>
+			        <a href="lineadeltempo.html"><button type="button" class="btn bottone-greyblue">Una cosmografia sacra di Bologna</button></a>	        
+			        <p class="caption-carousel mt-10">Immagine: <em> A. Villani&Figli, Esposizione di pezzi dell'Arca fatta in occasione del trasporto della salma nel rifugio, Soprintendenza Archeologia, Belle Arti e Paesaggio di Bologna e province di Modena, Reggio Emilia e Ferrara</em></p>
+			      </div>
+			    </div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+
+			<!--sezione IL PROGETTO-->
 		<section class="padding-section background-ice text-dark">
 
-			<div class="container-fluid">
+			<div class="container-fluid pl-20 pr-20">
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
-						<p><centre><h3 id="progetto">Il progetto</h3></centre><em><b>L'Arca di San Domenico Smart</b></em> è un progetto di valorizzazione digitale del Dipartimento delle Arti dell'Univerità di Bologna. Gli obiettivi principali del progetto sono la catalogazione, la metadatazione, la preservazione e la valorizzazione di oggetti multimediali che documentano dal punto di vista storico-artistico il sepolcro del Padre fondatore dell'Ordine dei Domenicani. Inoltre, il progetto vuole offrire allo stesso tempo una guida online in situ per il visitatore che attraverso un QR-code può accedere all'archivio attraverso immagini interattive e linee del tempo arricchendo la sua esperienza di fruizione.</p>
+						<h3 id="progetto" class="justify">Il progetto</h3>
+						<p class="justify"><em><b>L'Arca di San Domenico Digital</b></em> è un progetto di valorizzazione digitale del Dipartimento delle Arti dell'Università di Bologna. Gli obiettivi principali sono la catalogazione e la metadatazione di schede opera, schede foto e fonti testuali che documentano dal punto di vista storico-artistico il <b>monumento funebre di Domenico di Guzmán</b>, Padre fondatore dell'Ordine dei Predicatori. Nello specifico, il progetto prende in considerazione le <b>campagna fotografiche</b> di <b>A.Villani &figli</b> effettuata durante la Seconda Guerra Mondiale le quali hanno documentato la <b>Traslazione</b> del corpo del Santo nel 1943. Le serie permetteno un'osservazione minuziosa di ogni singolo soggetto in quanto all'epoca l'Arca fu smontata per essere messa al sicuro dai bombardamenti nella Villa Aria di Marzabotto. Infine, il progetto con le sezioni "Esplora" e "Approfondisci" vuole essere al tempo stesso una guida online in situ per il visitatore. Attraverso un QR-code è possibile accedere all'archivio e arricchire la propria esperienza di fruizione con immagini interattive, linee del tempo e approfondimenti.</p>					
 					</div>
 				</div>
 			</div>
 			
-		</section>	
+		</section>
 
-
-		
-
-
-<!--La STORIA DELL'ARCA IN BREVE-->
+	<!--La STORIA DELL'ARCA IN BREVE-->
 
 		<section class="padding-section background-arca text-dark">
+
 			<div class="container-fluid storiarca">
 				<div class="row"> 
-					<div class="col-md-8 col-sm-12 col-xs-12">
-						<aside>	
-							<div class="card storiarca background-ice text-dark" style="width: 18rem;">
-								<div class="card-body">
+
+					<div class="col-md-9 col-sm-12 col-xs-12">
+							<div class="card storiarca mt-7 background-ice text-dark">
+								<div class="card-body justify mt-5 mb-5">
 									<h3 class="card-title">La storia dell'Arca in breve</h3>
-									    <p class="card-text">blablablalla raccoglie oggetti eterogenei che documentano le varie sezioni dll'Arca di San Domenico e le fonti relative alla costruzione della stessa. E' possibile filtrare i vari oggetti in base all'autore, all'epoca storica e al supporto materiale</p>
+									    <p class="card-text">L'Arca di San Domenico ha una lunga storia che inizia a pochi anni dalla morte del Santo nella prima metà del XIII secolo e termina ben tre secoli più tardi nel XVI secolo. Molti sono gli artisti che hanno contribuito alla sua realizzazione da <b>Nicola Pisano</b> a <b>Niccolò dell'Arca</b>, <b>Michelangelo Buonarroti</b> e <b>Alfonso Lombardi</b>. Pertanto, l'Arca costituisce un'importante testimonianza della fiorente attività scultorea presente a Bologna, capace di assorbire diverse influenze e di diventare a sua volta un modello a cui guardare. Inoltre, il monumento è un'importante testimonianza visiva in quanto mostra gli episodi salienti della vita del Padre fondatore dell'Ordine dei Predicatori, ma ci offre anche importanti spunti sul manifesto politico di Giovanni II Bentivoglio, signore di Bologna dal 1463 al 1502.</p>
 								</div>
-							</aside>
-						</div>
+							</div>
+					</div>
 
-					
-						    
-			    </div> 
-			    	  
-				</div>
-			 
-			 </div>  
-    </section>
+				
+					<div class="col-md-3 col-sm-12 col-xs-12">	
+						<aside>
+							<div class="card bio-domenico background-ice text-dark">
+								<img src="img/index/beato-angelico-s-domenico.jpg" class="card-img-top" alt="Beato Angelico, San Domenico in preghiera">
+								<div class="card-body">
+									<h6 class="card-title">La vita di San Domenico di Guzmán</h6>
+									    <p class="card-text justify"><em>Domenico di Guzman nacque il 24 giugno 1170 dai nobili Felice de Guzmán e Giovanna de Aza, a Caleruega (Vecchia Castiglia) e morì a Bologna nel 1221.</em></p>
+									    <p class="center">Leggi la biografia completa su <a href="https://www.treccani.it/enciclopedia/domenico-di-guzman-san_%28Enciclopedia-Italiana%29/">Enciclopedia Treccani</a></p>
+								</div>
+							</div>
+						</aside>	
+					</div>
+						
+				</div>					
+			</div>			    	  			    
+			
+	  </section> 	 
 
-    
-<!--seconda section-->
+
+	    
+	<!--SECTION STRUMENTI-->
     <section class="padding-section background-peach">
 
 			<div class="container-fluid">
 				<div class="row"> 
-					<div class="col-md-12 col-sm-12 col-xs-12">		
+					<div class="col-md-12 col-sm-12 col-xs-12">				
 
-						<center><h3 class= "text-dark">Strumenti di esplorazione</h3></center> 
+						<h3 class= "text-dark center">Strumenti di esplorazione</h3>
+					</div>
+			 </div>	
+
 			      <div class="row strumenti">
 
 				      <div class="col-md-4">
 				      	<div class="card strumenti background-ice text-dark" style="width: 18rem;">
 								  <div class="card-body">
 								    <h4 class="card-title"><i class="bi bi-book"></i> Catalogo </h4>
-								    <p class="card-text">Il <b>catalogo</b> del progetto <em><b>L'Arca di San Domenico Smart</b></em> raccoglie oggetti eterogenei che documentano le varie sezioni dll'Arca di San Domenico e le fonti relative alla costruzione della stessa. E' possibile filtrare i vari oggetti in base all'autore, all'epoca storica e al supporto materiale</p>
-								   <a href="catalogo.html" class="card-link"><button type="button" class="bottone-strumenti1 btn btn-primary">Sfoglia il catalogo</button></a>
+								    <p class="card-text">Il <b>catalogo</b> del progetto <em><b>L'Arca di San Domenico Smart</b></em> raccoglie oggetti eterogenei che documentano le varie sezioni dell'Arca di San Domenico e le fonti relative alla costruzione della stessa e alla vita di San Domenico. E' possibile filtrare i vari oggetti in base all'autore, all'epoca storica e al supporto materiale</p>
+								   <a href="catalogo.html" class="card-link"><button type="button" class="bottone-strumenti1 btn btn-primary">Sfoglia il catalogo</button></a>								   
 								  </div>
 								</div>
 				      </div>
@@ -212,7 +234,7 @@
 				      	<div class="card strumenti background-ice text-dark" style="width: 18rem;">
 								 	<div class="card-body">
 								    <h4 class="card-title"><i class="bi bi-search"></i> L'Arca</h4>
-								    <p class="card-text">Per conoscere le scene e i soggetti rappresentati sul monumento funebre dedicato a San Domenico clicca sulla <b>mappa interattiva</b> dell'Arca e scopri ogni singola sezione del monumento!</p>
+								    <p class="card-text">Per conoscere le scene e i soggetti rappresentati sul monumento funebre dedicato a San Domenico clicca sull' <b>immagine interattiva dell'Arca</b> e scopri ogni singola sezione del monumento!</p>
 								    <a href="#" class="card-link"><button type="button" class="bottone-strumenti2 btn btn-primary">Esplora l'Arca</button></a>
 							  	</div>
 								</div>
@@ -223,103 +245,141 @@
 								  <div class="card-body">
 								    <h4 class="card-title"><i class="bi bi-arrow-right-square"></i> Linea del Tempo</h4>
 								    <p class="card-text">La costruzione dell'Arca di San Domenico si articola per ben oltre tre secoli coinvolgendo molteplici artisti. Conosci la storia seguendo la <b>Linea del Tempo</b></p>
-								    <a href="#" class="card-link"><button type="button" class="bottone-strumenti3 btn btn-primary">Esplora la Timeline</button></a>
+								    <a href="lineadeltempo.html" class="card-link"><button type="button" class="bottone-strumenti3 btn btn-primary">Esplora la Timeline</button></a>
 								  </div>
 								</div>
 				      </div>
 			                     
+			    	</div>
+
+			    	<div class="row">
+			    		<p class="caption mt-5">Immagine: <em>Niccolò dell'Arca, Arca di San Domenico (dettaglio della Cimasa), Basilica di S. Domenico, Bologna</em></p>			    		
 			    	</div> 
 			    	  
-					</div>
-			 </div>  
-	    </div>  
+					</div>   
           
 	  </section>
 
-        
-<!--terza section-->
+	<!--interlinea tra le due sezioni-->
+		<section class="background-arca">			
+		</section>
 
-    <section class="padding-section background-arca">
-    	<div class="container-fluid">
+
+	<!--section APPROFONDISCI -->
+	  <section class="padding-section background-ice">
+
+			<div class="container-fluid">
 				<div class="row"> 
-						
-					<div class="col-md-8">
-						<div class="card">
-							<div class="card-body">
-								<h5 class="card-title"><i class="bi bi-geo-alt"></i> Localizzazione</h5>
-														
-									<p class="card-text"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d219904.7374893542!2d11.331935182009785!3d44.45559856192695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4c0671904fd%3A0x3a4945b60e58b857!2sBasilica%20di%20San%20Domenico!5e0!3m2!1sit!2sit!4v1633269735805!5m2!1sit!2sit" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+					<div class="col-md-12 col-sm-12 col-xs-12">
+					<h3 class= "text-dark center">Approfondimenti</h3>
+					</div>
+			 	</div>	
+
+			      <div class="row strumenti">
+
+			      	<div class="col-md-6">
+				      	<div class="card strumenti background-ice text-dark" style="width: 18rem;">
+								 	<div class="card-body">
+								    <h4 class="card-title"><i class="bi bi-camera2"></i> Servizi fotografici di A. Villani&figli</h4>
+								    <p class="card-text">I <b>servizi fotografici</b> dell'inizio degli anni '40 della ditta <b>A. Villani&figli</b> documentano l’Arca di San Domenico smontata pezzo per pezzo in occasione delle opere di blindamento per la protezione antiaerea. In quella circostanza, lo studio realizzò una <b>minuziosa documentazione</b> dei singoli soggetti dell'arca che in via eccezionale potevano essere osservati singolarmente a 360 gradi. Inoltre, la serie documenta l'apertura del sarcofago,il reinvenimento della cassa e l'<b>esame radiografico</b> delle spoglie del Santo.</p>
+								    <a href="#" class="card-link"><button type="button" class="bottone-approfondimenti2 btn btn-primary">Scopri di più</button></a>
+							  	</div>
+								</div>
+		     		 	</div>
+
+				      <div class="col-md-6">
+				      	<div class="card strumenti background-ice text-dark" style="width: 18rem;">
+								  <div class="card-body">
+								    <h4 class="card-title"><i class="bi bi-globe2"></i> Una cosmografia sacra di Bologna</h4>
+								    <p class="card-text">L'Arca di San Domenico non è solamente un monumento religioso, ma è anche un'opera civile e politica. Molte sono le ragioni di determinate scelte iconografiche soprattutto nella parte della cimasa commissionata dal governo di Giovanni II Bentivoglio nel 1469. L'arca presenta un intreccio di rimandi e significati che la rendono il simbolo politico, civile e spirituale della Bologna del XV secolo.</p>
+								   <a href="catalogo.html" class="card-link"><button type="button" class="bottone-approfondimenti1 btn btn-primary">Scopri di più</button></a>								   
+								  </div>
+								</div>
+				      </div>
+
+			    	</div>		    
+				</div>          
+	  </section>
+
+	        
+	<!--SECTION INFO-->
+
+		<section class="padding-section background-arca">
+		  	<div class="container-fluid">
+					<div class="row"> 
 							
+						<div class="col-md-8">
+							<div class="card mt-6 background-ice">
+								<div class="card-body">
+									<h5 class="card-title"><i class="bi bi-geo-alt"></i> Localizzazione</h5>														
+										<p class="card-text"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d219904.7374893542!2d11.331935182009785!3d44.45559856192695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4c0671904fd%3A0x3a4945b60e58b857!2sBasilica%20di%20San%20Domenico!5e0!3m2!1sit!2sit!4v1633269735805!5m2!1sit!2sit" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>							
+								</div>
 							</div>
-						</div>
-					</div>	
+						</div>						
+				    
+				    <div class="col-md-4">
+				    	<aside>
+								<div class="card background-ice">
+									<div class="card-body">
+										<h5 class="card-title"><i class="bi bi-info-square"></i> Scopri la Comunità del Convento Patriarcale di San Domenico</h5>
+										<p class="card-text"><iframe src="https://sandomenicobologna.it/" height="auto" width="100%" title="Sitoweb del Convento Patriarcale di San Domenico"></iframe></p>									
+										<h5 class="card-title"><i class="bi bi-download"></i> Scarica l'App della Basilica di San Domenico</h5>												
+										<p class="card-text"><a href="https://play.google.com/store/apps/details?id=it.creareunapp.editor.android60bddca4b5262&hl=it&gl=US">Scarica l'app</a> per ammirare con una video-guida l'intero complesso della Basilica di San Domenico</p>								
+									</div> 											 				
+								</div>
+							</aside>
+		     		</div>		  			                     
+				   
+				  </div>
+				 </div> 
+		</section>
 
+
+		<!--footer-->
+		<footer>
+			
+			<div class="container-fluid footer">
+
+					<div class="row-footer">
+						<div class="col-md-4 col-sm-12 col-xs-12">			
+							<p class="firma1"><em><b>L'Arca di San Domenico Digital</b></em></p>
+							<p>Un progetto di valorizzazione digitale per il monumento funebre di San Domenico di Guzmán</p>
+							<p><a href="#" class="text-dark"><u>Contatti</u></a></p>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12">
+							<center><span class="logo-footer"><img src="img/logo/provabrand4.png" alt="logo del progetto"></span></center>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12">
+							<p class="firma2" id="credits-footer">&copy; Melissa Macaluso</p>
+							<p>Corso di Digital Humanities e Patrimonio Culturale 2020-2021</p>
+							<p>Corso di Laurea in Arti Visive, Università  di Bologna</p>
+						</div>
 						
-			    
-			    <div class="col-md-4">
-						<div class="card">
-							<div class="card-body">
-								<h5 class="card-title"><i class="bi bi-info-square"></i> Scopri la Comunità del Convento Patriarcale di San Domenico</h5>
-														
-									<!--il link al sitoweb non scorre-->
-								<p class="card-text"><iframe src="https://sandomenicobologna.it/" height="auto" width="100%" title="Sitoweb del Convento Patriarcale di San Domenico"></iframe></p>
-								
-								<h5 class="card-title"><i class="bi bi-download"></i> Scarica l'App della Basilica di San Domenico</h5>												
-								<p class="card-text"><a href="https://play.google.com/store/apps/details?id=it.creareunapp.editor.android60bddca4b5262&hl=it&gl=US">Scarica l'app</a> per ammirare con una video-guida l'intero complesso della Basilica di San Domenico</p>
-								
-							</div> 											 				
-						</div>
-	     		</div> 
-
-	   
-	  			                     
-			   
-			  </div>
-			 </div> 
- 		</section>    
-			         
-	             
-
-
-
-
-	
-
-
-
-<!--footer-- PROBLEMI DI RESPONSIVITA' IMMAGINE IN MEZZO-->
-	<footer>
-		
-		<div class="container-fluid footer">
-
-				<div class="row-footer">
-					<div class="col-md-4 col-sm-12 col-xs-12">			
-						<p class="firma1"><em>L'Arca di San Domenico Smart</em>: un progetto di Valorizzazione Digitale per il sepolcro del Padre fondatore dell'Ordine dei Domenicani</p>
 					</div>
-					<div class="col-md-4 col-sm-12 col-xs-12">
-						<center><span class="logo-footer"><img src="img/provabrand4.png"></span></center>
-					</div>
-					<div class="col-md-4 col-sm-12 col-xs-12">
-						<p class="firma2" id="credits-footer">&copy; Melissa Macaluso, Corso di Digital Humanities e Patrimonio Culturale, 2020-2021, Corso di Laurea in Arti Visive, Università  di Bologna</p>
-					</div>
-					
-				</div>
-		</div>
-					
 
-	</footer>
+					<div class="row-footer mt-10">
+	          <div class="col-md-12 col-sm-12 col-xs-12">
+	            <center><a href="https://creativecommons.org/licenses/by-nc/4.0/">Licenza Creative Commons BY - NC 4.0 International</a></center>
+	          </div>
+	        </div>
 
 
+			</div>
+						
 
-<!--collegamento a JQuery-->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-
-	<!--Bootstrap JS-->
-	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+		</footer>
 
 
 
-</body>
+	<!--collegamento a JQuery-->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+		<!--Bootstrap JS-->
+		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+	</body>
 
 
 </html>
