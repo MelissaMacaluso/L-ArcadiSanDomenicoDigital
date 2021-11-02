@@ -265,8 +265,16 @@ h2{
 	margin-top: 8px;
 }
 
+/*bottone-tornasu*/
+.tornasu{
+	float:right; 
+	text-align: center;
+}
 
-
+.bottone-tornasu{
+	width: 140%;
+	height: auto;
+}
 /*tabs*/
 .nav-tabs .nav-link.active{
 	background-color: #FAFCF6!important;
@@ -382,6 +390,12 @@ ul.pagination li.page-item a.page-link.active{
 
 .carousel-control-prev, .carousel-control-next {
 	opacity: 0.5!important;
+	z-index: 10;
+	background-color: transparent;
+	border: none;
+	height: fit-content;
+	top: 50%;
+
 }
 
 .card-intro{
@@ -392,8 +406,8 @@ ul.pagination li.page-item a.page-link.active{
 /*bottoni*/
 
 .bottone-greyblue {
-  background-color: #61879E !important;
-  border: 1px solid #61879E !important;
+  background-color: #61879E!important;
+  border: 1px solid #61879E!important;
   color: #FFFFFF !important;
   cursor: pointer !important;
 }
@@ -423,19 +437,6 @@ ul.pagination li.page-item a.page-link.active{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .pb-5{
   padding-bottom: 30rem !important;
 }
@@ -449,9 +450,6 @@ ul.pagination li.page-item a.page-link.active{
 	
 
 }
-
-
-
 
 
 
@@ -518,6 +516,15 @@ ul.pagination li.page-item a.page-link.active{
 	margin: 20px;
 }
 
+
+/*immagine click*/
+.istruzioni:hover{
+	box-shadow: none;
+
+}
+
+.lente-arca{
+	font-size: 40px
 }
 
 /*Footer*/
