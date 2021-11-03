@@ -239,30 +239,57 @@ h2{
 }
 
 .bottone-strumenti2{
-		margin-top: 75px;
+		margin-top: 95px;
   
 }
 
  .bottone-strumenti3{
- 	margin-top: 97px;
+ 	margin-top: 125px;
 
  }
 
- .bottone-approfondimenti1{
- 	margin-top: 70px;
+ .bottone-approfondimenti2{
+ 	margin-top: 50px;
  }
+
+
+/*bottoni metadati catalogo*/
 
 .bottone-metadati1{
-	margin-top: 60px;
+	margin-top: 90px;
 }
 
 
 .bottone-metadati2{
-	margin-top: 70px;
+	margin-top: 15px;
 }
 
 .bottone-metadati3{
-	margin-top: 8px;
+	margin-top: 0px;
+}
+
+.bottone-metadati4{
+	margin-top: 40px;
+}
+
+.bottone-metadati5{
+	margin-top: 20px;
+}
+
+.bottone-metadati6{
+	margin-top: 0px;
+}
+
+.bottone-metadati7{
+	margin-top: 0px;
+}
+
+.bottone-metadati8{
+	margin-top: 0px;
+}
+
+.bottone-metadati9{
+	margin-top: 50px;
 }
 
 /*bottone-tornasu*/
@@ -520,11 +547,14 @@ ul.pagination li.page-item a.page-link.active{
 /*immagine click*/
 .istruzioni:hover{
 	box-shadow: none;
-
 }
 
 .lente-arca{
 	font-size: 40px
+}
+
+.no-border{
+	border: none;
 }
 
 /*Footer*/
