@@ -24,19 +24,19 @@ pb-10{ padding-top: 10px;
 }
 
 .mt-7 {
-	margin-top: 8rem !important;
+	margin-top: 8rem!important;
 }
 
 .mt-10 {
-	margin-top: 20px !important;
+	margin-top: 20px!important;
 }
 
 .mb-10 {
-	margin-bottom: 20px !important;
+	margin-bottom: 20px!important;
 }
 
 .mb-5 {
-	margin-bottom: 1.5rem !important;
+	margin-bottom: 1.5rem!important;
 }
 
 .pl-20{
@@ -58,7 +58,7 @@ main{
 
 /*colore font testo scuro*/
 .text-dark {
-	color:#29000A !important;
+	color:#29000A!important;
 }
 
 .text-ice{
@@ -67,16 +67,16 @@ main{
 }
 
 .background-ice{
-	background-color: #FAFCF6 !important;
+	background-color: #FAFCF6!important;
 	
 }
 
 .background-dark{
-	background-color: #29000A !important;;
+	background-color: #29000A!important;;
 }
 
 .background-peach{ 
-	background-color: #FFCC99 !important;
+	background-color: #FFCC99!important;
 	}
 
 
@@ -87,7 +87,7 @@ main{
 /*Trirong text style*/
 
 .trirong{
-	font-family:'Trirong',	serif !important;;
+	font-family:'Trirong',	serif!important;;
 }
 
 /* h1, h2, h3, h4, h5 */
@@ -99,13 +99,13 @@ h2{
 
 /*navbar*/
 .navbar {
-	background-color: #FFCC99 !important; 
-	color: #29000A !important;
+	background-color: #FFCC99!important; 
+	color: #29000A!important;
 }
 
 .navbar-brand {
-	font-family: 'Trirong',	serif !important; 
-	color: #29000A !important;
+	font-family: 'Trirong',	serif!important; 
+	color: #29000A!important;
 	font-size: 25px;
 }
 
@@ -129,7 +129,7 @@ h2{
 
 
 .dropdown-item {
-	color: #29000A !important;
+	color: #29000A!important;
 }
 
 
@@ -138,15 +138,15 @@ h2{
 	
 /*carousel HOME*/
 .carousel-item {
-	min-height: 200px !important;
+	min-height: 200px!important;
 }
 .carousel-item.img1 img {
 	background-color: #3A515F; 
 	height: 500px; 
 	width: 100%; 
-	margin: auto !important; 
-	object-fit: cover !important;
-	object-position: 0px 20% !important;
+	margin: auto!important; 
+	object-fit: cover!important;
+	object-position: 0px 20%!important;
 	}  
 
 
@@ -155,18 +155,18 @@ h2{
 	background-color: #3A515F; 
 	height: 500px; 
 	width: 100%; 
-	margin: auto !important; 
-	object-fit: cover !important;
-	object-position: 0px 2% !important;
+	margin: auto!important; 
+	object-fit: cover!important;
+	object-position: 0px 2%!important;
 	}  
 
 .carousel-item.img3 img {
 	background-color: #3A515F; 
 	height: 500px; 
 	width: 100%; 
-	margin: auto !important; 
-	object-fit: cover !important;
-	object-position: 0px 50% !important;
+	margin: auto!important; 
+	object-fit: cover!important;
+	object-position: 0px 50%!important;
 	}  
 
 
@@ -212,25 +212,25 @@ h2{
 /*card storia arca, bio-domenico-strumenti*/
 
 .card.strumenti{
-	width: 95% !important;
+	width: 95%!important;
 	height: 100%;, 
 }
 
 
 .card.storiarca, {
-	height: auto !important;
-	width: 100% !important;
+	height: auto!important;
+	width: 100%!important;
 	
 	}
 
 .card.bio-domenico {
-	height: auto !important;
-	width: 100% !important;
+	height: auto!important;
+	width: 100%!important;
 	
 } 
 
 .bio-domenico img {
-	object-fit: cover !important;
+	object-fit: cover!important;
 }
 
 /*bottoni strumenti esplorazione home*/
@@ -320,7 +320,7 @@ h2{
 }
 
 .persona img {
-	height: 400px !important;
+	height: 400px!important;
   width: 50%!important;
 }
 
@@ -335,14 +335,14 @@ h2{
 
 /*filtri*/
 .dropdown-menu.filtri1 {
-	min-width: 15rem !important ;
+	min-width: 15rem!important ;
 }
 
 .dropdown-menu.filtri2 {
-	min-width:8rem !important ;
+	min-width:8rem!important ;
 }
 .dropdown-menu.filtri3 {
-	min-width: 8rem !important ;
+	min-width: 8rem!important ;
 }
 
 /*card catalogo metadati item*/
@@ -354,7 +354,7 @@ h2{
 }
 
 .card-img-top img{
-	object-fit: cover !important ;
+	object-fit: cover!important ;
 }
 
 .card-img-top.petronio img{
@@ -379,16 +379,16 @@ h2{
 /*pagination*/
 .scorri-pagine{
 	justify-content: center;
-	background-color: !important ;
+	background-color:!important ;
 
 }
 
 ul.pagination li.page-item a.page-link{
-	background-color: #FAFCF6 !important ;
+	background-color: #FAFCF6!important ;
 }
 
 ul.pagination li.page-item a.page-link.active{
-	background-color: #007bff !important;
+	background-color: #007bff!important;
 	color: white;
 }
 
@@ -404,14 +404,14 @@ ul.pagination li.page-item a.page-link.active{
 .carousel-item.single{
 	background-color: lightgrey; 
 	height: auto! important;
-	width: 100% !important;
+	width: 100%!important;
 
 }
 
 
 .carousel-item.single img{
-	height: 400px !important;
-	width: auto !important;
+	height: 400px!important;
+	width: auto!important;
 	
 }
 
@@ -435,8 +435,8 @@ ul.pagination li.page-item a.page-link.active{
 .bottone-greyblue {
   background-color: #61879E!important;
   border: 1px solid #61879E!important;
-  color: #FFFFFF !important;
-  cursor: pointer !important;
+  color: #FFFFFF!important;
+  cursor: pointer!important;
 }
 
 .bottone-greyblue:hover{
@@ -444,11 +444,11 @@ ul.pagination li.page-item a.page-link.active{
 }
 
 .btn.bottone-greyblue.aside{
-	margin-top: 10px !important;
+	margin-top: 10px!important;
 }
 
 .bottone-ligthblue {
-	color: #FFFFFF !important;
+	color: #FFFFFF!important;
   background-color: #139fb5 !important;
   border: 1px solid #139fb5 !important;
   }
@@ -456,7 +456,7 @@ ul.pagination li.page-item a.page-link.active{
 
 
 .bottone-navyblue {
-	color: #FFFFFF !important;
+	color: #FFFFFF!important;
   background-color: #000C66 !important;
   border: 1px solid #000C66 !important;
 
@@ -465,7 +465,7 @@ ul.pagination li.page-item a.page-link.active{
 
 
 .pb-5{
-  padding-bottom: 30rem !important;
+  padding-bottom: 30rem!important;
 }
 
 
@@ -475,9 +475,7 @@ ul.pagination li.page-item a.page-link.active{
 .row.strumenti{
 	padding-top: 10px;
 	
-
 }
-
 
 
 
@@ -486,14 +484,14 @@ ul.pagination li.page-item a.page-link.active{
 }
 
 .card.item {
-	color: #29000A !important;
-	background-color: #FAFCF6 !important;
+	color: #29000A!important;
+	background-color: #FAFCF6!important;
 	
 }
 
 .card.item.catalogo{
-	width: 90% !important;
-	height: 100% !important;
+	width: 90%!important;
+	height: 100%!important;
 	}
 
 .card.item.catalogo img{
@@ -566,7 +564,7 @@ footer {
 	background-color:#FFCC99 ; 
 	color: #331a00;
 	width: auto;
-	padding: 35px !important;
+	padding: 35px!important;
 
 }
 
@@ -583,8 +581,8 @@ footer {
     }
 
 .row-items{
-	display: inline-flex !important;
-	flex-wrap: wrap !important;
+	display: inline-flex!important;
+	flex-wrap: wrap!important;
 }
 
 .firma1
@@ -592,8 +590,8 @@ footer {
 	width: 80%;
 	height: auto;
 	color: #29000A;
-	margin-top: revert !important;
-	margin-right: 0px !important;
+	margin-top: revert!important;
+	margin-right: 0px!important;
 			
 }
 
@@ -602,7 +600,7 @@ footer {
 	width: 80%;
 	height: auto;
 	color: #29000A;
-	margin-top: revert !important;
+	margin-top: revert!important;
 	
 		
 }
@@ -622,7 +620,7 @@ footer {
 
 @media screen and (max-width: 780px) {
   .firma1, .firma2 {
-  	    text-align: left !important;
+  	    text-align: left!important;
   }
  }
 
@@ -645,12 +643,12 @@ iframe{
 }
 
 .breadcrumb-item {
-	font-size: 14px !important;
+	font-size: 14px!important;
 }
 
 
 .mt-4, .my-4{
-	margin-top: 0 !important;
+	margin-top: 0!important;
 }
 
 .card.item.singolo {
