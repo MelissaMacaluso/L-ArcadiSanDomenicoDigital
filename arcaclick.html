@@ -23,6 +23,7 @@
 	  <!--Google Font Trirong-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
 
+
  
 	</head>
 
@@ -34,55 +35,71 @@
 	  	<header>
 
 	  <!--NAVBAR BOOTSTRAP-->
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			  	<a class="navbar-brand logo" href="#"><img src="img/logo/provabrand4.png"></a>
-			  	<a class="navbar-brand" href="#"><b>L' Arca di San Domenico Digital</b></a>
-			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    	<span class="navbar-toggler-icon"></span>
+		    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+		    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  	<span class="navbar-toggler-icon"></span>
 			  	</button>
 
-			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				    <ul class="navbar-nav mr-auto">
-				      	<li class="nav-item">
-				        	<a class="nav-link" href="index.html">Home</a>
-				      	</li>
-				      	<li class="nav-item">
-				        	<a class="nav-link" href="catalogo.html">Catalogo<span class="sr-only">(current)</span></a>
-				      	</li>
-				      	<li class="nav-item dropdown">
-				        	<a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				          Esplora
-				        	</a>
-				        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				          		<a class="dropdown-item" href="#">Le sezioni dell'Arca</a>
-				          		<a class="dropdown-item" href="lineadeltempo.html">Linea del tempo</a>
-				        	</div>
-				      	</li>
-			       		<li class="nav-item dropdown">
-			        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				          Approfondisci
-				        	</a>
-				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				        	<a class="dropdown-item" href="#">I servizi fotografici <br>di A. Villani&figli</a>
-				          	<a class="dropdown-item" href="#">Una cosmografia sacra</a>	
-				        </div>
-				      	</li>
-				    </ul>
-				    <form class="form-inline my-2 my-lg-0">
-			        	<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-			        	<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
-			      	</form>
-			  	</div>
+			  	<div class="contenitore-logo-titolo">
+			  	<a class="navbar-brand logo" href="index.html"><img src="img/logo/provabrand4.png" alt="logo del progetto"></a>
+			  	<a class="navbar-brand titolonav" href="index.html"><b>L' Arca di San Domenico Digital</b></a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+					    <li class="nav-item active">
+							<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="catalogo.html">Catalogo</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle esplora-mobile-nonvis" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  Esplora
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="arcaclick.html">Le sezioni dell'Arca</a>
+								<a class="dropdown-item" href="lineadeltempo.html">Linea del tempo</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link esplora-mobile-vis" href="arcaclick.html">Esplora L'Arca</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link esplora-mobile-vis"  href="lineadeltempo.html">Linea del tempo</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  Approfondisci
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Le reliquie tra furto e gelosia</a>			          
+								<a class="dropdown-item" href="#">I servizi fotografici <br>di A. Villani&figli</a> 
+								<a class="dropdown-item" href="#">Una cosmografia sacra</a>			          
+							</div>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
+					</form>
+				</div>
 			</nav>
 
-	  	</header>
+	    </header>
+
+	    <div class="lingue"> 	  
+	    	<a href="#"><img src="img/index/UK.png" class="bandiera"></a>
+	    </div>
 
 		<main class="background-ice">
 	    <!--ARCA DA CLICCARE-->
 	    	<section class="container-fluid">
       			<div class="row">
 	        		<div class="col-md-12 pt-3">
-	          			<h2 class="text-dark text-center">Esplora L' Arca</h2>
+	          			<h2 class="text-dark text-center desktop">Esplora L'Arca</h2>
+	          			<h2 class="text-dark text-center cell padding-titolo-mobile"><i class="bi bi-search lente-arca"></i> Esplora L'Arca </h2>
+	          			<p class="center cell">Clicca sui soggetti dei quattro lati dell'Arca per scoprire qualcosa in più</p>
 	        		</div>
       			</div>
 
@@ -91,47 +108,105 @@
 		        <!--BREADCRUMB-->
 			        <div class="col-md-2 col-sm-2 col-xs-12 mt-4 ">
 			          	<aside>	            
-				            <nav aria-label="breadcrumb">
-				              	<ol class="breadcrumb">
+				            <nav aria-label="breadcrumb ">
+				              	<ol class="breadcrumb nomobile">
 				                	<li class="breadcrumb-item"><a href="index.html">Home</a></li>
 				                	<li class="breadcrumb-item active" aria-current="page">Le sezioni dell'Arca</li>
 				              	</ol>
 				            </nav>
 
-				            <div class="mt-5">
+				            <div class="mt-5 desktop">
 				         		<h6>Istruzioni:</h6>
 				         		<div class="card item collegamento istruzioni no-border">	         			   		
-										<div class="card-body">
-									    <center><b><i class="bi bi-search lente-arca"></i><h4> Esplora</h4></b></center>
-									    <p class="card-text center">Clicca i singoli soggetti dell'immagine dell'Arca per avere delle informazioni e accedere alla scheda del catalogo</p>
+										<div class="card-body center">
+									    <b><i class="bi bi-search lente-arca"></i><h4> Esplora</h4></b>
+									    <p class="card-text center">Clicca sui soggetti dei quattro lati dell'Arca per scoprire qualcosa in più</p>
 									  	</div>
 								</div>	         		
 				         	</div>
+
+
 			         	</aside>    
 				</div>
 
 				<div class="col-md-8 col-sm-8 col-xs-12">
-					<img src="img/immagine-click/arcainteraclick1.jpeg" alt="Immagine intera dell'Arca di San Domenico" usemap="#image-map">
-					<map name="image-map">
-					    <area target="" alt="Apostolo; San Domenico resuscita Napoleone Orsini; Madonna con Bambino; San Domenico e il rogo dei libri degli eretici albigesi (Nicola Pisano, Arnolfo di Cambio, Fra' Guglielmo)" title="Apostolo; San Domenico resuscita Napoleone Orsini; Madonna con Bambino; San Domenico e il rogo dei libri degli eretici albigesi (Nicola Pisano, Arnolfo di Cambio, Fra' Guglielmo)" href="" coords="291,387,578,379,574,475,288,479" shape="poly">
-					    <area target="" alt="San Petronio (Michelangelo Buonarroti)" title="San Petronio (Michelangelo Buonarroti)" href="https://melissamacaluso.github.io/L-ArcadiSanDomenicoDigital/item-san-petronio-michelangelo.html" coords="368,290,392,288,399,372,360,375" shape="poly">
-					    <area target="" alt="Angelo reggicandelabro (Michelangelo Buonarroti)" title="Angelo reggicandelabro (Michelangelo Buonarroti)" href="" coords="570,478,614,479,616,545,568,551" shape="poly">
-					    <area target="" alt="Angelo reggicandelabro (Niccolò dell'Arca)" title="Angelo reggicandelabro (Niccolò dell'Arca)" href="" coords="244,477,287,481,295,551,227,557" shape="poly">
-					    <area target="" alt="Adorazione dei magi e dei pastori (Alfonso Lombardi)" title="Adorazione dei magi e dei pastori (Alfonso Lombardi)" href="" coords="293,488,562,487,564,545,298,544" shape="poly">
-					    <area target="" alt="San Domenico (Niccolò dell'Arca)" title="San Domenico" href="" coords="458,287,492,287,501,369,456,379" shape="poly">
-					</map>
+
+					<div class="row">
+			        <div class="card specific">
+			        	<div id="carouselExampleControlsNoTouching" class="carousel slide" data-touch="false" data-interval="false">
+								<div class="carousel-inner center">
+									<div class="carousel-item active single">								    							<img src="img/immagine-click/arcainteraclick2.jpg" alt="Immagine intera dell'Arca di San Domenico" usemap="#image-map" class="img-arca-click">
+										<!-- Image Map Generated by http://www.image-map.net/ -->
+										<map name="image-map">											
+												<area target="" alt="San Petronio" title="San Petronio" href="#sp" coords="121,200,143,254" shape="rect">
+											    <area target="" alt="Angelo Reggicandelabro" title="Angelo Reggicandelabro" href="#am" coords="254,313,290,300,293,354,264,376,258,363,256,339" shape="poly">
+											    <area target="" alt="Sarcofago-Lato frontale" title="Sarcofago-Lato frontale" href="" coords="71,322,254,260" shape="rect">
+											    <area target="" alt="Angelo reggicandelabro" title="Angelo reggicandelabro" href="" coords="36,322,67,368" shape="rect">
+											    <area target="" alt="San Francesco" title="San Francesco" href="" coords="59,201,90,256" shape="rect">
+											    <area target="" alt="San Domenico" title="San Domenico" href="" coords="181,195,213,250" shape="rect">
+											    <area target="" alt="San Floriano" title="San Floriano" href="" coords="241,253,266,193" shape="rect">
+											    <area target="" alt="Evangelisti, Imago Pietatis e Angeli" title="Evangelisti, Imago Pietatis e Angeli" href="" coords="76,198,245,132" shape="rect">
+											    <area target="" alt="Putti reggifestoni e Dio Padre" title="Putti reggifestoni e Dio Padre" href="" coords="127,8,193,132" shape="rect">										    
+											    <area target="" alt="Stele " title="Stele " href="" coords="75,333,254,370" shape="rect">
+											</map>															
+
+											<div class="popup pp1" id="sp">
+		  									<p>San Petronio, patrono di Bologna, offre la città al pubblico in visita all'Arca. L'opera venne realizzata nel 1494 da Michelangelo Buonarroti </p>
+	  										<a class="close" href="#">X</a>
+											</div>
+											<div class="popup pp2" id="am">
+											<p>L'angelo reggicandelabro di Michelangelo Buonarroti fu realizzato dall'artista per accompagnare quello di Niccolò dell'Arca</p>
+	  										<a class="close" href="#">X</a>
+	  										</div>						
+  									</div>							
+								  
+								    <div class="carousel-item single">
+								      	<img src="img/immagine-click/sinxclick1.jpeg" class="d-block w-100 mra mla" alt="...">
+								    </div>
+								    <div class="carousel-item single">
+								      	<img src="img/immagine-click/back4.jpg" class="d-block w-100 mra mla" alt="...">
+								    </div>
+								</div>
+								<button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsNoTouching" data-slide="prev">
+								    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								    <span class="sr-only">Previous</span>
+								</button>
+							  	<button class="carousel-control-next" type="button" data-target="#carouselExampleControlsNoTouching" data-slide="next">
+							    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							    <span class="sr-only">Next</span>
+						  		</button>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+					
 				</div>
 
 				<div class="col-md-2 col-sm-2 col-xs-12">
 					<aside>
-						<div class="mt-10">
+						<div class="mt-10 desktop">
 							<h6>Potrebbe interessarti:</h6>
-							<div class="card item collegamento">	         			   		
-										<div class="card-body">
-									    		<center><b><i class="bi bi-arrow-right-square lente-arca"></i><h4> Linea del Tempo</h4></b>
-									    		<p class="card-text center">Naviga sulla linea del tempo per conoscere tutte le fasi di costruzione dell'Arca di San Domenico</p>
-									    		<a href="lineadeltempo.html" class="btn bottone-greyblue aside">Linea del tempo</a></center>
-										</div>
+							<div class="card item istruzioni no-border">	         			   		
+								<div class="card-body center">
+							    		<b><i class="bi bi-arrow-right-square lente-arca"></i><h4> Linea del Tempo</h4></b>
+							    		<p class="card-text center">Scorri sulla linea del tempo per conoscere l'evoluzione dell'Arca di San Domenico</p>
+							    		<a href="lineadeltempo.html" class="btn bottone-greyblue aside">Linea del tempo</a>
+								</div>
+							</div>	         		
+						</div>
+						<div class="mt-10 cell">
+							<h6>Potrebbe interessarti:</h6>
+							<div class="card item istruzioni no-border">	         			   		
+								<div class="card-body center">
+							    		<b><h4><i class="bi bi-arrow-right-square lente-arca"></i> Linea del Tempo</h4></b>
+							    		<p class="card-text center">Scorri sulla linea del tempo per conoscere l'evoluzione dell'Arca di San Domenico</p>
+							    		<a href="lineadeltempo.html" class="btn bottone-greyblue aside">Linea del tempo</a></center>
+								</div>
 							</div>	         		
 						</div>
 					</aside>
@@ -151,31 +226,38 @@
        
 
 		<!--footer-->
-		<footer>			
+		<footer>
+			
 			<div class="container-fluid footer">
-					<div class="row-footer">
-						<div class="col-md-4 col-sm-12 col-xs-12">			
-							<p class="firma1"><em><b>L'Arca di San Domenico Digital</b></em></p>
-							<p>Un progetto di valorizzazione digitale per il monumento funebre di San Domenico di Guzmán</p>
-							<p><a href="#"class="text-dark"><u>Contatti</u></a></p>
-						</div>
-						<div class="col-md-4 col-sm-12 col-xs-12">
-							<center><span class="logo-footer"><img src="img/logo/provabrand4.png"></span></center>
-						</div>
-						<div class="col-md-4 col-sm-12 col-xs-12">
-							<p class="firma2" id="credits-footer">&copy; Melissa Macaluso</p>
-							<p>Corso di Digital Humanities e Patrimonio Culturale 2020-2021</p>
-							<p>Corso di Laurea in Arti Visive, Università  di Bologna</p>
-						</div>						
+
+				<div class="row-footer">
+					<div class="col-md-4 col-sm-12 col-xs-12">			
+						<p class="firma1 trirong"><em><b>L' Arca di San Domenico Digital</b></em></p>
+						<p>Un progetto di valorizzazione digitale per il monumento funebre di San Domenico di Guzmán</p>
+						<p><a href="#" class="text-dark"><u>Scopri di più sul progetto</u></a></p>
 					</div>
-					<div class="row-footer mt-10">
-	          				<div class="col-md-12 col-sm-12 col-xs-12">
-	            				<center>
-							<a href="https://creativecommons.org/licenses/by-nc/4.0/">Licenza Creative Commons BY - NC 4.0 International</a>
-						</center>
-	          				</div>
-	        			</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 center">
+						<span class="logo-footer center"><img src="img/logo/provabrand4.png" alt="logo del progetto"></span>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12">
+						<p class="firma2" id="credits-footer">&copy; Melissa Macaluso</p>
+						<p>AMaC -Arts, Museology and Curatorship, Università di Bologna, 2020-2021</p>
+						<p><a href="#" class="text-dark"><u>Contatti</u></a></p>
+						<p class="center ottimizzazione-footer"><em>-Sitoweb ottimizzato per versione mobile-</em></p>
+					</div>
+					
+				</div>
+
+				<div class="row-footer mt-10">
+		          	<div class="col-md-12 col-sm-12 col-xs-12 center">
+		            	<u><a href="https://creativecommons.org/licenses/by-nc/4.0/" class="text-dark">Licenza Creative Commons BY - NC 4.0 International</a></u>
+		          	</div>
+	        	</div>
+
+
 			</div>
+						
+
 		</footer>
 
 	<!--collegamento a JQuery-->

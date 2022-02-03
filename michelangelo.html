@@ -31,51 +31,69 @@
 <!--BODY-->
 	<body class="background-ice">
 	  <!--Header-->
-	  <header>
 
-	  <!--NAVBAR BOOTSTRAP-->
-	   	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <a class="navbar-brand logo" href="#"><img src="img/logo/provabrand4.png"></a>
-		  <a class="navbar-brand" href="#"><b>L' Arca di San Domenico Digital</b></a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
-		  </button>
 
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item">
-		        <a class="nav-link" href="index.html">Home</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link active" href="catalogo.html">Catalogo<span class="sr-only">(current)</span></a>
-		      </li>
-		      <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Esplora
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Le sezioni dell'Arca</a>
-		          <a class="dropdown-item" href="lineadeltempo.html">Linea del tempo</a>
-		        </div>
-		      </li>
-	       	      <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Approfondisci
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		        	<a class="dropdown-item" href="#">I servizi fotografici <br>di A. Villani&figli</a>
-		          <a class="dropdown-item" href="#">Una cosmografia sacra</a>
-		        </div>
-		      </li>
-		    </ul>
-		    <form class="form-inline my-2 my-lg-0">
-	               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-	              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
-	           </form>
-		  </div>
-		</nav>
+		<header>
 
-	  </header>
+       <!--NAVBAR BOOTSTRAP-->
+	         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+	          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	               <span class="navbar-toggler-icon"></span>
+	               </button>
+
+	               <div class="contenitore-logo-titolo">
+	               <a class="navbar-brand logo" href="index.html"><img src="img/logo/provabrand4.png" alt="logo del progetto"></a>
+	               <a class="navbar-brand titolonav" href="index.html"><b>L' Arca di San Domenico Digital</b></a>
+	               </div>
+
+	               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	                    <ul class="navbar-nav mr-auto">
+	                        <li class="nav-item">
+	                              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+	                         </li>
+	                         <li class="nav-item active">
+	                              <a class="nav-link" href="catalogo.html">Catalogo<span class="sr-only">(current)</span></a>
+	                         </li>
+	                         <li class="nav-item dropdown">
+	                              <a class="nav-link dropdown-toggle esplora-mobile-nonvis" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                           Esplora
+	                              </a>
+	                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	                                   <a class="dropdown-item" href="arcaclick.html">Le sezioni dell'Arca</a>
+	                                   <a class="dropdown-item" href="lineadeltempo.html">Linea del tempo</a>
+	                              </div>
+	                         </li>
+	                         <li class="nav-item">
+	                              <a class="nav-link esplora-mobile-vis" href="arcaclick.html">Esplora L'Arca</a>
+	                         </li>
+	                         <li class="nav-item">
+	                              <a class="nav-link esplora-mobile-vis"  href="lineadeltempo.html">Linea del tempo</a>
+	                         </li>
+	                         <li class="nav-item dropdown">
+	                              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                           Approfondisci
+	                              </a>
+	                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	                                   <a class="dropdown-item" href="#">Le reliquie tra furto e gelosia</a>                     
+	                                   <a class="dropdown-item" href="#">I servizi fotografici <br>di A. Villani&figli</a> 
+	                                   <a class="dropdown-item" href="#">Una cosmografia sacra</a>                     
+	                              </div>
+	                         </li>
+	                    </ul>
+	                    <form class="form-inline my-2 my-lg-0">
+	                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	                         <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
+	                    </form>
+	               </div>
+	          </nav>
+
+	     </header>
+	     <div class="lingue">        
+	          <img src="img/index/UK.png" class="bandiera">
+	     </div>
+  	
+
+	 
 
 
 		<main class="background-ice">
@@ -83,7 +101,7 @@
 	    <section class="container-fluid">
 	      <div class="row">
 	        <div class="col-md-12 pt-3">
-	          <h2 class="text-dark text-center">Buonarroti, Michelangelo</h2>
+	          <h2 class="text-dark text-center padding-titolo-mobile">Buonarroti, Michelangelo</h2>
 
 	        </div>
 	      </div>
@@ -92,7 +110,7 @@
 	      	
 	         <!--ASIDE BREADCRUMB E BOTTONI CON LICENZE-->
 	        <div class="col-md-2 col-sm-2 col-xs-12 mt-4 ">
-	          <aside>
+	          <aside class="aside-mobile">
 	            
 	            <!--breadcrumb-->
 	            <nav aria-label="breadcrumb">
@@ -130,8 +148,8 @@
 	        <!--CARD SINGLE ITEM-->	
 		       <div class="row">
 	                 <div class="card item persona">
-	            	   <div class="sfondo-persona">
-	            		<center><img src="img/persone/Michelangelo_Daniele_da_Volterra_(dettaglio).jpg"></center>
+	            	   <div class="sfondo-persona center">
+	            		<img src="img/persone/Michelangelo_Daniele_da_Volterra_(dettaglio).jpg">
 	            	</div>
 	                <div class="card-body">
 	                  <div class="card-body card-intro">
@@ -141,11 +159,7 @@
 	                  <ul class="list-group list-group-flush">
 	                    <li class="list-group-item">
 	                      <span>Cognome e Nome:</span>
-	                      <b><a href="https://viaf.org/viaf/30311644/" target="_blank" title= "Identificativo VIAF di Buonarroti, Michelangelo">Buonarroti, Michelangelo<sup>VIAF</sup></a></b>
-	                    </li>
-	                    <li class="list-group-item">
-	                      <span>Sesso:</span>
-	                      <b>M</b>
+	                      <b>Buonarroti, Michelangelo<a href="http://viaf.org/viaf/24585191" target="_blank" title= "Identificativo VIAF di Buonarroti, Michelangelo" class="text-dark"><sup><u>VIAF</u></sup></a></b>
 	                    </li>
 	                    <li class="list-group-item">
 	                      <span>Nazionalità:</span>
@@ -157,7 +171,7 @@
 	                    </li>
 	                    <li class="list-group-item">
 	                      <span>Luogo di nascita:</span>
-	                      <b><a href="http://www.geonames.org/3180632/caprese-michelangelo.html">Caprese Michelangelo<sup>GeoNames</sup></a></b>
+	                      <b>Caprese Michelangelo<a href="http://www.geonames.org/3180632/caprese-michelangelo.html" class="text-dark"><sup><u>GeoNames</u></sup></a></b>
 	                    </li>
 	                    <li class="list-group-item">
 	                      <span>Data di morte:</span>
@@ -165,26 +179,26 @@
 	                    </li>
 	                    <li class="list-group-item">
 	                      <span>Luogo di morte:</span>
-	                      <b><a href="http://www.geonames.org/3169070/rome.html">Roma<sup>GeoNames</sup></a></b>
+	                      <b>Roma<a href="http://www.geonames.org/3169070/rome.html" class="text-dark"><sup><u>GeoNames</u></sup></a></b>
 	                    </li>
 	                    <li class="list-group-item">
 	                      <span>Attività:</span>
 	                      <b>Scultore, pittore, architetto</b>
 	                    </li>
 	                    <!--lista controllo di autorità-->
-	                    <li class="list-group-item">
+	                    <li class="list-group-item autority">
 	                      <span>Controllo di autorità:</span>
 	                       	<ul>
-	                      		<li><b><a href="https://viaf.org/viaf/30311644/" target="_blank" title="Identificativo VIAF di Buonarroti, Michelangelo">30311644<sup>VIAF</sup></a></b></li>
-	                      		<li><b><a href="https://isni.oclc.org/xslt/DB=1.2//CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A0000000121243640&TERMS_OF_USE_AGREED=Y&terms_of_use_agree=send" target="_blank" title="Identificativo ISNI di Buonarroti, Michelangelo">0000 0001 2124 3640<sup>ISNI</sup></a></b></li>  
-	                      		<li><b><a href="https://opac.sbn.it/opacsbn/opaclib?db=solr_auth&resultForward=opac/iccu/full_auth.jsp&from=1&nentries=10&searchForm=opac/iccu/error.jsp&do_cmd=search_show_cmd&fname=none&sortquery=+BY+%40attrset+bib-1++%40attr+1%3D1003&sortlabel=Nome&saveparams=false&item:5019:VID::@frase@=CFIV017291" target="_blank" title="Identificativo SBN di Buonarroti, Michelangelo">IT\ICCU\CFIV\017291<sup>SBN</sup></a></b></li>
-	                      		<li><b><a href="https://id.loc.gov/authorities/names/n80152368.html" target="_blank" title="Identificativo LCNAF di Buonarroti, Michelangelo">n80152368<sup>LCNAF</sup></a></b></li>
-		                     		<li><b><a href="http://www.getty.edu/vow/ULANFullDisplay?find=buonarroti+michelangelo&role=&nation=&prev_page=1&subjectid=500010654" target="_blank" title="Identificativo ULAN di Buonarroti, Michelangelo">500010654<sup>ULAN</sup></a></b></li>
-		                     		<li><b><a href="https://www.worldcat.org/identities/lccn-n80152368/" target="_blank" title="Identificativo WorldCat di Buonarroti, Michelangelo">lccn-n80152368<sup>WorldCat</sup></a></b></li>
+	                      		<li><b><a href="https://viaf.org/viaf/30311644/" target="_blank" title="Identificativo VIAF di Buonarroti, Michelangelo" class="text-dark"><u>30311644<sup>VIAF</sup></a></u></b></li>
+	                      		<li><b><a href="https://isni.oclc.org/xslt/DB=1.2//CMD?ACT=SRCH&IKT=8006&TRM=ISN%3A0000000121243640&TERMS_OF_USE_AGREED=Y&terms_of_use_agree=send" target="_blank" title="Identificativo ISNI di Buonarroti, Michelangelo" class="text-dark"><u>0000 0001 2124 3640<sup>ISNI</sup></u></a></b></li>  
+	                      		<li><b><a href="https://opac.sbn.it/opacsbn/opaclib?db=solr_auth&resultForward=opac/iccu/full_auth.jsp&from=1&nentries=10&searchForm=opac/iccu/error.jsp&do_cmd=search_show_cmd&fname=none&sortquery=+BY+%40attrset+bib-1++%40attr+1%3D1003&sortlabel=Nome&saveparams=false&item:5019:VID::@frase@=CFIV017291" target="_blank" title="Identificativo SBN di Buonarroti, Michelangelo" class="text-dark"><u>IT\ICCU\CFIV\017291<sup>SBN</sup></u></a></b></li>
+	                      		<li><b><a href="https://id.loc.gov/authorities/names/n80152368.html" target="_blank" title="Identificativo LCNAF di Buonarroti, Michelangelo" class="text-dark"><u>n80152368<sup>LCNAF</sup></a></u></b></li>
+	                     		<li><b><a href="http://www.getty.edu/vow/ULANFullDisplay?find=buonarroti+michelangelo&role=&nation=&prev_page=1&subjectid=500010654" target="_blank" title="Identificativo ULAN di Buonarroti, Michelangelo" class="text-dark"><u>500010654<sup>ULAN</sup></u></a></b></li>
+	                     		<li><b><a href="https://www.worldcat.org/identities/lccn-n80152368/" target="_blank" title="Identificativo WorldCat di Buonarroti, Michelangelo" class="text-dark"><u>lccn-n80152368<sup>WorldCat</sup></u></a></b></li>
 	                    	</ul>
 	                    </li>
 	                    <!--tags-->
-	                    <li class="list-group-item">
+	                    <li class="list-group-item tags-tabella">
 				<button type="button" class="btn btn-primary btn-sm">
 							<svg xmlns="bootstrap/icons/tag.svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
 								<path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0z"></path>
@@ -256,15 +270,15 @@
 	         <!--ASIDE APPROFONDIMENTI E COLLEGAMENTI-->
 	      <div class="col-md-2 col-sm-12 col-xs-12">
 		         <aside>
-		         	<div class="mt-5">
-		         		<h6>Approfondisci la biografia di Michelangelo Buonarroti</h6>
+		         	<div class="mt-5 nomobile">
+		         		<h6>Approfondisci la biografia di Michelangelo Buonarroti:</h6>
 		         		<div class="card item collegamento aside">
-								  <a class="play" href="https://www.youtube.com/watch?v=FZ9P--oTi1s"><center><img class="youtube" src="img/persone/play.png"></center></a>
-								 <div class="card-body">
-								    <center><h5 class="card-title">Michelangelo Buonarroti spiegato da Antonio Paolucci</h5>
+								  <a class="play center" href="https://www.youtube.com/watch?v=xgAfyhonDjU&t=2s"><img class="youtube" src="img/persone/play.png"></a>
+								 <div class="card-body center">
+								    <h5 class="card-title">Michelangelo: Mind of the Master</h5>
 								    <p class="card-text">Tipo di oggetto: <b>video</b>
-								    <p class="card-text">Produttore: <b>Rai 5</b>                         
-								    <a href="https://www.youtube.com/watch?v=FZ9P--oTi1s" class="btn bottone-greyblue aside">Guarda il video su Youtube</a></center>
+								    <p class="card-text">Produttore: <b>Getty Museum</b>                         
+								    <a href="https://www.youtube.com/watch?v=xgAfyhonDjU&t=2s" class="btn bottone-greyblue aside">Guarda il video su Youtube</a>
 							  	</div>
 					</div>
 		         		
@@ -274,11 +288,11 @@
 	         			<h6>Altri artisti che potrebbero interessarti:</h6>
 	         			<div class="card item collegamento">
 	         				<img src="img/persone/le_vite_alfonso_lombardi.jpg" class="card-img-top" alt="Ritratto di Alfonso Lombardi">       		
-								<div class="card-body">
-						    	<center><h5 class="card-title">Lombardi, Alfonso</h5>
+								<div class="card-body center">
+						    	<h5 class="card-title">Lombardi, Alfonso</h5>
 						   	 	<p class="card-text">Attività: <b>scultore </b>
-						   		<p class="card-text">Controllo di autorità: <b><a href="http://viaf.org/viaf/95854275">Lombardi, Alfonso<sup>VIAF</sup></a></b>                         
-						    	<a href="michelangelo.html" class="btn bottone-greyblue aside">Tutti i metadati</a></center>
+						   		<p class="card-text">Controllo di autorità: <b>Lombardi, Alfonso<sup><a href="http://viaf.org/viaf/95854275" class="text-dark"><u>VIAF</u></sup></a></b>                         
+						    	<a href="michelangelo.html" class="btn bottone-greyblue aside">Tutti i metadati</a>
 						  	</div>						       		
 	         		</div>
 
@@ -294,39 +308,40 @@
 		
 
 		<!--footer-->
+	
 		<footer>
 			
 			<div class="container-fluid footer">
 
-					<div class="row-footer">
-						<div class="col-md-4 col-sm-12 col-xs-12">			
-							<p class="firma1"><em><b>L'Arca di San Domenico Digital</b></em></p>
-							<p>Un progetto di valorizzazione digitale per il monumento funebre di San Domenico di Guzmán</p>
-							<p><a href="#"class="text-dark"><u>Contatti</u></a></p>
-						</div>
-						<div class="col-md-4 col-sm-12 col-xs-12">
-							<center><span class="logo-footer"><img src="img/logo/provabrand4.png" alt="logo del progetto"></span></center>
-						</div>
-						<div class="col-md-4 col-sm-12 col-xs-12">
-							<p class="firma2" id="credits-footer">&copy; Melissa Macaluso</p>
-							<p>Corso di Digital Humanities e Patrimonio Culturale 2020-2021</p>
-							<p>Corso di Laurea in Arti Visive, Università  di Bologna</p>
-						</div>
-						
+				<div class="row-footer">
+					<div class="col-md-4 col-sm-12 col-xs-12">			
+						<p class="firma1 trirong"><em><b>L' Arca di San Domenico Digital</b></em></p>
+						<p>Un progetto di valorizzazione digitale per il monumento funebre di San Domenico di Guzmán</p>
+						<p><a href="#" class="text-dark"><u>Scopri di più sul progetto</u></a></p>
 					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 center">
+						<span class="logo-footer center"><img src="img/logo/provabrand4.png" alt="logo del progetto"></span>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12">
+						<p class="firma2" id="credits-footer">&copy; Melissa Macaluso</p>
+						<p>AMaC -Arts, Museology and Curatorship, Università di Bologna, 2020-2021</p>
+						<p><a href="#" class="text-dark"><u>Contatti</u></a></p>
+						<p class="center ottimizzazione-footer"><em>-Sito web ottimizzato per versione mobile-</em></p>
+					</div>
+					
+				</div>
 
-					<div class="row-footer mt-10">
-	          				<div class="col-md-12 col-sm-12 col-xs-12">
-	            				<center><a href="https://creativecommons.org/licenses/by-nc/4.0/">Licenza Creative Commons BY - NC 4.0 International</a></center>
-	         			 	</div>
-	       				</div>
+				<div class="row-footer mt-10">
+		          	<div class="col-md-12 col-sm-12 col-xs-12 center">
+		            	<u><a href="https://creativecommons.org/licenses/by-nc/4.0/" class="text-dark">Licenza Creative Commons BY - NC 4.0 International</a></u>
+		          	</div>
+	        	</div>
 
 
 			</div>
 						
 
 		</footer>
-
 
 
 	<!--collegamento a JQuery-->

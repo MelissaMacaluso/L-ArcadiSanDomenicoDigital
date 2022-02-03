@@ -34,55 +34,74 @@
 	  	<header>
 
 	  <!--NAVBAR BOOTSTRAP-->
-		  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-			  	<a class="navbar-brand logo" href="#"><img src="img/logo/provabrand4.png"></a>
-			  	<a class="navbar-brand" href="#"><b>L' Arca di San Domenico Digital</b></a>
-			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
+		  
+	  		 <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+		    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  	<span class="navbar-toggler-icon"></span>
 			  	</button>
 
-			  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				    <ul class="navbar-nav mr-auto">
-				      	<li class="nav-item">
-				        	<a class="nav-link" href="index.html">Home</a>
-				      	</li>
-				      	<li class="nav-item">
-				        	<a class="nav-link" href="catalogo.html">Catalogo<span class="sr-only">(current)</span></a>
-				      	</li>
-				      	<li class="nav-item dropdown">
-				        	<a class="nav-link active dropdown-toggle" href="arcaclick.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				          Esplora
-				        	</a>
-				        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				          		<a class="dropdown-item" href="arcaclick.html">Le sezioni dell'Arca</a>
-				          		<a class="dropdown-item" href="lineadeltempo.html">Linea del tempo</a>
-				        	</div>
-				      	</li>
-			       		<li class="nav-item dropdown">
-				        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				          Approfondisci
-				        	</a>
-				        	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				        		<a class="dropdown-item" href="#">I servizi fotografici <br>di A. Villani&figli</a>
-				          		<a class="dropdown-item" href="#">Una cosmografia sacra</a>	
-				        	</div>
-				      	</li>
-				    </ul>
-				    <form class="form-inline my-2 my-lg-0">
-			        	<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-			        	<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
-			      	</form>
-			  	</div>
+			  	<div class="contenitore-logo-titolo">
+			  	<a class="navbar-brand logo" href="index.html"><img src="img/logo/provabrand4.png" alt="logo del progetto"></a>
+			  	<a class="navbar-brand titolonav" href="index.html"><b>L' Arca di San Domenico Digital</b></a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+					    <li class="nav-item active">
+							<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="catalogo.html">Catalogo</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle esplora-mobile-nonvis" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  Esplora
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="arcaclick.html">Le sezioni dell'Arca</a>
+								<a class="dropdown-item" href="lineadeltempo.html">Linea del tempo</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link esplora-mobile-vis" href="arcaclick.html">Esplora L'Arca</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link esplora-mobile-vis"  href="lineadeltempo.html">Linea del tempo</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  Approfondisci
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Le reliquie tra furto e gelosia</a>			          
+								<a class="dropdown-item" href="#">I servizi fotografici <br>di A. Villani&figli</a> 
+								<a class="dropdown-item" href="#">Una cosmografia sacra</a>			          
+							</div>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
+					</form>
+				</div>
 			</nav>
 
-	  	</header>
+	    </header>
+	    <div class="lingue"> 	  
+	    	<a href="#"><img src="img/index/UK.png" class="bandiera"></a>
+	    </div>
+
+  
 
 		<main class="background-ice">
 	    <!--LINEA DEL TEMPO--> 
 		    <section class="container-fluid">
 		      	<div class="row">
 		        	<div class="col-md-12 pt-3">
-		          	<h2 class="text-dark text-center">Linea del Tempo</h2>
+		        		<h2 class="text-dark text-center desktop">Linea del Tempo</h2>
+	          			<h2 class="text-dark text-center cell padding-titolo-mobile"><i class="bi bi-arrow-right-square lente-arca"></i> Linea del Tempo</h2>
+	          			<p class="center cell">Scorri sulla linea del tempo per conoscere l'evoluzione dell'Arca di San Domenico</p>
+
 		        	</div>
 		      	</div>
 
@@ -92,7 +111,7 @@
 		        <div class="col-md-2 col-sm-2 col-xs-12 mt-4 ">
 		          	<aside>	            
 		            	<nav aria-label="breadcrumb">
-		              		<ol class="breadcrumb">
+		              		<ol class="breadcrumb nomobile">
 		                		<li class="breadcrumb-item"><a href="index.html">Home</a></li>
 		                		<li class="breadcrumb-item active" aria-current="page">Linea del Tempo</li>
 		              		</ol>
@@ -101,12 +120,12 @@
 					
 
 
-						<div class="mt-5">
+						<div class="mt-5 desktop">
 				         	<h6>Istruzioni:</h6>
-				         		<div class="card item collegamento istruzioni">	         			   		
+				         		<div class="card item collegamento istruzioni no-border">	         			   		
 									<div class="card-body">
 										<center><b><i class="bi bi-arrow-right-square lente-arca"></i><h4> Linea del Tempo</h4></b></center>
-										    <p class="card-text center">Naviga sulla linea del tempo per conoscere tutte le fasi di costruzione dell'Arca di San Domenico</p>
+										    <p class="card-text center">Scorri sulla linea del tempo per conoscere l'evoluzione dell'Arca di San Domenico</p>
 									  	</div>
 								</div>	         		
 				        </div> 
@@ -125,47 +144,68 @@
 		  		<!--COLLEGAMENTO ESPLORA ARCA-->
 		  		<div class="col-md-2 col-sm-2 col-xs-12">
 					<aside>
-						<div class="mt-10">
-				         	<h6>Potrebbe interessarti:</h6>
-				         		<div class="card item collegamento no-border">	         			   		
-									<div class="card-body">
-									    <center><b><i class="bi bi-search lente-arca"></i><h4>Esplora l'Arca</h4></b>
-									    <p class="card-text center">Clicca i singoli soggetti dell'immagine dell'Arca per avere delle informazioni e accedere alla scheda del catalogo</p>
-									    <a href="arcaclick.html" class="btn bottone-greyblue aside">Esplora</a></center>
-									</div>
-								</div>	         		
-				        </div>
-				    </aside>
-			    </div>	     
+						<div class="mt-10 desktop">
+							<h6>Potrebbe interessarti:</h6>
+							<div class="card item istruzioni no-border">	         			   		
+								<div class="card-body center">
+							    		<b><i class="bi bi-search lente-arca"></i><h4> Esplora l'Arca</h4></b>
+							    		<p class="card-text center">Clicca sui soggetti dei quattro lati dell'Arca per scoprire qualcosa in più</p>
+							    		<a href="arcaclick.html" class="btn bottone-greyblue aside">Esplora</a>
+								</div>
+							</div>	         		
+						</div>
+						<div class="mt-10 cell">
+							<h6>Potrebbe interessarti:</h6>
+							<div class="card item istruzioni no-border">	         			   		
+								<div class="card-body center">
+							    		<b><h4><i class="bi bi-search lente-arca"></i> Esplora l'Arca</h4></b>
+							    		<p class="card-text center">Clicca sui soggetti dei quattro lati dell'Arca per scoprire qualcosa in più</p>
+							    		<a href="arcaclick.html" class="btn bottone-greyblue aside">Esplora</a></center>
+								</div>
+							</div>	         		
+						</div>
+					</aside>
+				</div>	
+
+     
 		    </section>
 	  	</main>
 
        
 
 		<!--footer-->
-		<footer>			
+		<footer>
+			
 			<div class="container-fluid footer">
+
 				<div class="row-footer">
 					<div class="col-md-4 col-sm-12 col-xs-12">			
-						<p class="firma1"><em><b>L'Arca di San Domenico Digital</b></em></p>
+						<p class="firma1 trirong"><em><b>L' Arca di San Domenico Digital</b></em></p>
 						<p>Un progetto di valorizzazione digitale per il monumento funebre di San Domenico di Guzmán</p>
-						<p><a href="#"class="text-dark"><u>Contatti</u></a></p>
+						<p><a href="#" class="text-dark"><u>Scopri di più sul progetto</u></a></p>
 					</div>
-					<div class="col-md-4 col-sm-12 col-xs-12">
-						<center><span class="logo-footer"><img src="img/logo/provabrand4.png"></span></center>
+					<div class="col-md-4 col-sm-12 col-xs-12 center">
+						<span class="logo-footer center"><img src="img/logo/provabrand4.png" alt="logo del progetto"></span>
 					</div>
 					<div class="col-md-4 col-sm-12 col-xs-12">
 						<p class="firma2" id="credits-footer">&copy; Melissa Macaluso</p>
-						<p>Corso di Digital Humanities e Patrimonio Culturale 2020-2021</p>
-						<p>Corso di Laurea in Arti Visive, Università  di Bologna</p>
-					</div>						
+						<p>AMaC -Arts, Museology and Curatorship, Università di Bologna, 2020-2021</p>
+						<p><a href="#" class="text-dark"><u>Contatti</u></a></p>
+						<p class="center ottimizzazione-footer"><em>-Sito web ottimizzato per versione mobile-</em></p>
+					</div>
+					
 				</div>
+
 				<div class="row-footer mt-10">
-	          			<div class="col-md-12 col-sm-12 col-xs-12">
-	           				<center><a href="https://creativecommons.org/licenses/by-nc/4.0/">Licenza Creative Commons BY - NC 4.0 International</a></center>
-	         	 		</div>
-	        		</div>
+		          	<div class="col-md-12 col-sm-12 col-xs-12 center">
+		            	<u><a href="https://creativecommons.org/licenses/by-nc/4.0/" class="text-dark">Licenza Creative Commons BY - NC 4.0 International</a></u>
+		          	</div>
+	        	</div>
+
+
 			</div>
+						
+
 		</footer>
 
 	<!--collegamento a JQuery-->

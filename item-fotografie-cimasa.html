@@ -32,57 +32,71 @@
 	  	<header>
 
 	  <!--NAVBAR BOOTSTRAP-->
-		  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-			  <a class="navbar-brand logo" href="#"><img src="img/logo/provabrand4.png"></a>
-			  <a class="navbar-brand" href="#"><b>L' Arca di San Domenico Digital</b></a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
+		    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+		    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  	<span class="navbar-toggler-icon"></span>
+			  	</button>
 
-			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    <ul class="navbar-nav mr-auto">
-			      <li class="nav-item">
-			        <a class="nav-link" href="index.html">Home</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link active" href="catalogo.html">Catalogo<span class="sr-only">(current)</span></a>
-			      </li>
-			      <li class="nav-item dropdown">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Esplora
-			        </a>
-			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="arcaclick.html">Le sezioni dell'Arca</a>
-			          <a class="dropdown-item" href="lineadeltempo.html">Linea del tempo</a>
-			        </div>
-			      </li>
-		       	<li class="nav-item dropdown">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Approfondisci
-			        </a>
-			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="#">I servizi fotografici <br>di A. Villani&figli</a>
-			          <a class="dropdown-item" href="#">Una cosmografia sacra</a>
-			        </div>
-			      </li>
-			    </ul>
-			    <form class="form-inline my-2 my-lg-0">
-		       		 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		        	<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
-		      	   </form>
-			  </div>
-		</nav>
+			  	<div class="contenitore-logo-titolo">
+			  	<a class="navbar-brand logo" href="index.html"><img src="img/logo/provabrand4.png" alt="logo del progetto"></a>
+			  	<a class="navbar-brand titolonav" href="index.html"><b>L' Arca di San Domenico Digital</b></a>
+				</div>
 
-	  </header>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+					    <li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="catalogo.html">Catalogo<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle esplora-mobile-nonvis" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  Esplora
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="arcaclick.html">Le sezioni dell'Arca</a>
+								<a class="dropdown-item" href="lineadeltempo.html">Linea del tempo</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link esplora-mobile-vis" href="arcaclick.html">Esplora L'Arca</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link esplora-mobile-vis"  href="lineadeltempo.html">Linea del tempo</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  Approfondisci
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Le reliquie tra furto e gelosia</a>			          
+								<a class="dropdown-item" href="#">I servizi fotografici <br>di A. Villani&figli</a> 
+								<a class="dropdown-item" href="#">Una cosmografia sacra</a>			          
+							</div>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
+					</form>
+				</div>
+			</nav>
+
+	    </header>
+	    <div class="lingue"> 	  
+	    	<a href="#"><img src="img/index/UK.png" class="bandiera"></a>
+	    </div>
 
 
 
-	 <main class="background-ice">
+
+	 	<main class="background-ice">
 	    <!--ITEM--> 
 	    <section class="container-fluid">
 	      <div class="row">
 	        <div class="col-md-12 pt-3">
-	          <h2 class="text-dark text-center">Fotografie dei particolari eseguite in occasione del trasporto della salma di San Domenico nel rifugio (Cimasa)</h2>
+	          <h2 class="text-dark text-center mt-5 padding-titolo-mobile">Fotografie dei particolari eseguite in occasione del trasporto della salma di San Domenico nel rifugio (Cimasa)</h2>
 
 	        </div>
 	      </div>
@@ -91,40 +105,40 @@
 	      	
 	        <!--ASIDE BREADCRUMB E BOTTONI CON LICENZA-->
 	        <div class="col-md-2 col-sm-2 col-xs-12 mt-4 ">
-	          <aside>
+		        <aside class="aside-mobile">
 
-	          <!--breadcrumb-->	            
-	            <nav aria-label="breadcrumb">
-	              <ol class="breadcrumb">
-	                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-	                <li class="breadcrumb-item"><a href="catalogo.html">Catalogo</a></li>
-	                <li class="breadcrumb-item active" aria-current="page">Fotografie dei particolari eseguite in occasione del trasporto della salma di San Domenico nel rifugio (Cimasa)</li>
-	              </ol>
-	            </nav> 
+		          <!--breadcrumb-->	            
+		            <nav aria-label="breadcrumb">
+		              <ol class="breadcrumb">
+		                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+		                <li class="breadcrumb-item"><a href="catalogo.html">Catalogo</a></li>
+		                <li class="breadcrumb-item active" aria-current="page">Fotografie dei particolari eseguite in occasione del trasporto della salma di San Domenico nel rifugio (Cimasa)</li>
+		              </ol>
+		            </nav> 
 
-	          <!--bottoni con licenza--> 	
-	            <div>
-	            	<a href="http://creativecommons.org/licenses/by/4.0/" class="btn btn-outline-dark" target="_blank" title="Licenza Creative Commons CC BY 4.0">
-		            		<img alt="Creative Commons License" style="border-width:0; width: 60px;" src="https://i.creativecommons.org/l/by/4.0/88x31.png"> Licenza
-		         </a>
-	            </div>
+		          <!--bottoni con licenza--> 	
+		            <div>
+		            	<a href="http://creativecommons.org/licenses/by/4.0/" class="btn btn-outline-dark" target="_blank" title="Licenza Creative Commons CC BY 4.0">
+			            		<img alt="Creative Commons License" style="border-width:0; width: 60px;" src="https://i.creativecommons.org/l/by/4.0/88x31.png"> Licenza
+			         </a>
+		            </div>
 
-	           	<div class="mt-10">
-	           		<button type="button" class="btn btn-outline-dark"><i class="bi bi-share-fill"></i> Condividi</button>
-	           	</div>
+		           	<div class="mt-10">
+		           		<button type="button" class="btn btn-outline-dark"><i class="bi bi-share-fill"></i> Condividi</button>
+		           	</div>
 
-	           	<div class="mt-10">
-	           		<button type="button" class="btn btn-outline-dark"><i class="bi bi-download"></i> Scarica Immagine</button>
-	           	</div>
+		           	<div class="mt-10">
+		           		<button type="button" class="btn btn-outline-dark"><i class="bi bi-download"></i> Scarica Immagine</button>
+		           	</div>
 
-	           	<div class="mt-10">
-	           		<a href="item-fotografie-cimasa-rdf.xml"><button type="button" class="btn btn-outline-dark">RDF/ArCo</button></a>
-	           	</div>
+		           	<div class="mt-10">
+		           		<a href="item-fotografie-cimasa-rdf.xml"><button type="button" class="btn btn-outline-dark">RDF/ArCo</button></a>
+		           	</div>
 
-	                
+		                
 
-	         </aside>    
-		</div>       
+		        </aside>    
+			</div>       
 	            
 	        							    
 	      
@@ -135,69 +149,69 @@
 		        <div class="row">
 			        <div class="card specific">
 			        	<div id="carouselExampleControlsNoTouching" class="carousel slide" data-touch="false" data-interval="false">
-								  <div class="carousel-inner">
+								  <div class="carousel-inner center">
 								    <div class="carousel-item active single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909574_N_002199.jpg" class="d-block w-100" alt="..."></center>
+								      <img src="img/catalogo/villani-particolari-cimasa/ICCD12909574_N_002199.jpg" class="d-block w-100 mra mla" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909575_N_002200.jpg" class="d-block w-100" alt="..."></center>
+								      <img src="img/catalogo/villani-particolari-cimasa/ICCD12909575_N_002200.jpg" class="d-block w-100 mra mla" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909576_N_002201.jpg" class="d-block w-100" alt="..."></center>
+								      <img src="img/catalogo/villani-particolari-cimasa/ICCD12909576_N_002201.jpg" class="d-block w-100 mra mla" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909577_N_002202.jpg" class="d-block w-100" alt="..."></center>
+								      <img src="img/catalogo/villani-particolari-cimasa/ICCD12909577_N_002202.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909578_N_002203.jpg" class="d-block w-100" alt="..."></center>
+								      <img src="img/catalogo/villani-particolari-cimasa/ICCD12909578_N_002203.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909579_N_002204.jpg" class="d-block w-100" alt="..."></center>
+								      <img src="img/catalogo/villani-particolari-cimasa/ICCD12909579_N_002204.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909580_N_002205.jpg" class="d-block w-100" alt="..."></center>
+								      <img src="img/catalogo/villani-particolari-cimasa/ICCD12909580_N_002205.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909582_N_002206.jpg" class="d-block w-100" alt="..."></center>
+								      <img src="img/catalogo/villani-particolari-cimasa/ICCD12909582_N_002206.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909583_N_002207.jpg" class="d-block w-100" alt="..."></center>
+								     	<img src="img/catalogo/villani-particolari-cimasa/ICCD12909583_N_002207.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909584_N_002208.jpg" class="d-block w-100" alt="..."></center>
+								      	<img src="img/catalogo/villani-particolari-cimasa/ICCD12909584_N_002208.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909587_N_002209.jpg" class="d-block w-100" alt="..."></center>
+								     	<img src="img/catalogo/villani-particolari-cimasa/ICCD12909587_N_002209.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909588_N_002210.jpg" class="d-block w-100" alt="..."></center>
+								      	<img src="img/catalogo/villani-particolari-cimasa/ICCD12909588_N_002210.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909590_N_002211.jpg" class="d-block w-100" alt="..."></center>
+								      	<img src="img/catalogo/villani-particolari-cimasa/ICCD12909590_N_002211.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909591_N_002212.jpg" class="d-block w-100" alt="..."></center>
+								      	<img src="img/catalogo/villani-particolari-cimasa/ICCD12909591_N_002212.jpg" class="d-block w-100 mra mla" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909592_N_002213.jpg" class="d-block w-100" alt="..."></center>
+								      	<img src="img/catalogo/villani-particolari-cimasa/ICCD12909592_N_002213.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909593_N_002214.jpg" class="d-block w-100" alt="..."></center>
+								      	<img src="img/catalogo/villani-particolari-cimasa/ICCD12909593_N_002214.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909594_N_002215.jpg" class="d-block w-100" alt="..."></center>
+								      	<img src="img/catalogo/villani-particolari-cimasa/ICCD12909594_N_002215.jpg" class="d-block w-100 mra mla" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909596_N_002216.jpg" class="d-block w-100" alt="..."></center>
+								      <img src="img/catalogo/villani-particolari-cimasa/ICCD12909596_N_002216.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909597_N_002217.jpg" class="d-block w-100" alt="..."></center>
+								      	<img src="img/catalogo/villani-particolari-cimasa/ICCD12909597_N_002217.jpg" class="d-block w-100 mla mra" alt="...">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909599_N_002218.jpg" class="d-block w-100" alt="..."></center>
+								      	<img src="img/catalogo/villani-particolari-cimasa/ICCD12909599_N_002218.jpg" class="d-block w-100 mla mra" alt="Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>
 								    <div class="carousel-item single">
-								      <center><img src="img/catalogo/villani-particolari-cimasa/ICCD12909600_N_002219.jpg" class="d-block w-100" alt="..."></center>
+								      	<img src="img/catalogo/villani-particolari-cimasa/ICCD12909600_N_002219.jpg" class="d-block w-100 mra mla" alt=".Fotografie dei dettagli della cimasa di A. Villani & figli">
 								    </div>													
 								  </div>
 								  <button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsNoTouching" data-slide="prev">
@@ -221,20 +235,20 @@
 						    </li>
 						    <li class="list-group-item">
 						    	<span>Creatore:</span>
-						    	<b><a href="http://viaf.org/viaf/140821088" target="_blank" title= "Identificativo VIAF di A. Villani&figli">Achille Villani & figli<sup>VIAF</sup></a></b>
+						    	<b>Achille Villani & figli<a href="http://viaf.org/viaf/140821088" target="_blank" title= "Identificativo VIAF di A. Villani&figli" class="text-dark"><sup><u>VIAF</u></sup></a></b>
 						    </li>
 						    <li class="list-group-item">
 						    	<span>Data:</span>
 						    	<b>1943</b>
 						    </li>			    
 						    <li class="list-group-item"><span>Tipo di oggetto:</span>
-						    	<b><a href="http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&s=negative&i=2&h=0100000000000#c">negative < photographic film < film <sup>WordNet</sup></a></b>
+						    	<b>negative < photographic film < film <a href="http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&s=negative&i=2&h=0100000000000#c" class="text-dark"><sup><u>WordNet</u></sup></a></b>
 						    </li>
 						    <li class="list-group-item"><span>Dimensioni:</span>
 						    	<b>70(h)</b>					    
 						    </li>
 						    <li class="list-group-item"><span>Materiale:</span>
-						    	<b><a href="http://vocab.getty.edu/page/aat/300128688">gelatina ai sali d'argento<sup>AAT</sup></a>; <a href="http://vocab.getty.edu/page/aat/300010797">vetro<sup>AAT</sup></a></b>					    
+						    	<b>gelatina ai sali d'argento<a href="http://vocab.getty.edu/page/aat/300128688" class="text-dark"><sup><u>AAT</u></sup></a>; vetro<a href="http://vocab.getty.edu/page/aat/300010797" class="text-dark"><sup><u>AAT</u></sup></a></b>					    
 						    </li>
 						    <li class="list-group-item"><span>Soggetti:</span>
 						    	<b>Imago Pietatis; San Petronio; San Domenico; San Francesco; Sant'Agricola, San Procolo, San Vitale, Evangelisti, Angelo Reggicandelabro, Putti</b>					    
@@ -246,7 +260,7 @@
 						    	<b>Soprintendenza Archeologia, Belle Arti e Paesaggio per la città metropolitana di Bologna e le province di Modena, Reggio Emilia e Ferrara</b>
 						    </li>    
 						    <li class="list-group-item"><span>Intermediario: </span>
-						    	<b><a href="https://www.catalogo.beniculturali.it/">Istituto Centrale per il Catalogo e la Documentazione<sup>SIGECweb</sup></a></b>
+						    	<b>Istituto Centrale per il Catalogo e la Documentazione<a href="https://www.catalogo.beniculturali.it/" class="text-dark"><sup><u>SIGECweb</u></sup></a></b>
 						    </li>
 						    <li class="list-group-item"><span>Posizione attuale: </span>
 						    	<b>Palazzo dell'Armi Marescalchi, Bologna</b>
@@ -254,7 +268,7 @@
 						    	<b>Proprietà dello Stato</b>
 						    </li>
 						    <!--tags-->
-						    <li class="list-group-item">
+						    <li class="list-group-item tags-tabella">
 								    	<button type="button" class="btn btn-primary btn-sm">
 												<svg xmlns="bootstrap/icons/tag.svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
 													<path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0z"></path>
@@ -321,31 +335,35 @@
 	      
 	      <!--ASIDE APPROFONDIMENTI E COLLEGAMENTI-->  
 	      <div class="col-md-2 col-sm-12 col-xs-12">
-	       <aside>	       	
-	       	<div class="mt-5">
-	       		<h6>Scopri di più sull'ente creatore:</h6>
-	       		<div class="card item collegamento">
-	       			<img src="img/persone/villani.jpg" class="card-img-top" alt="Lo studio A. Villani&Figli a Bolongna">       		
-					<div class="card-body">
-					    <center><h5 class="card-title">Achille Villani & figli</h5>
-					    <p class="card-text">Attività: <b>studio fotografico</b>
-					    <p class="card-text">Controllo di autorità: <b><a href="http://viaf.org/viaf/140821088" target="_blank" title= "Identificativo VIAF di A. Villani&Figli">Achille Villani & figli<sup>VIAF</sup></a></b>                         
-					    <a href="michelangelo.html" class="btn bottone-greyblue aside">Tutti i metadati</a></center>
-					 </div>
-			</div>	         		
-	       	</div>
-	       	<div class="mt-5">
-	       		<h6>Altre opere dello stesso autore:</h6>
-	       		<div class="card item collegamento">
-					<img src="img/catalogo/sigec-villani-arca-smontata.jpg" class="card-img-top" alt="Angelo reggicandelabro di Michelangelo Buonarroti">
-					<div class="card-body">
-					    <center><h5 class="card-title">Esposizione di pezzi dell'Arca fatta in occasione del trasporto della salma nel rifugio</h5>
-					    <p class="card-text">Creatore: <b>Achille Villani&Figli</b>					                          
-					    <a href="" class="btn bottone-greyblue aside">Tutti i metadati</a></center>
-					  </div>
+	       	<aside>	       	
+		       	<div class="mt-5">
+		       		<h6>Scopri di più sull'ente creatore:</h6>
+		       		<div class="card item collegamento">
+		       			<img src="img/persone/villani.jpg" class="card-img-top" alt="Lo studio A. Villani&Figli a Bolongna">       		
+						<div class="card-body center">
+						    <h5 class="card-title">Achille Villani & figli</h5>
+						    <p class="card-text">Attività: <b>studio fotografico</b>
+						    <p class="card-text">Controllo di autorità: <b>Achille Villani & figli<a href="http://viaf.org/viaf/140821088" target="_blank" title= "Identificativo VIAF di A. Villani&Figli" class="text-dark"><sup><u>VIAF</u></sup></a></b></p>                        
+						    <a href="michelangelo.html" class="btn bottone-greyblue aside">Tutti i metadati</a>
+						 </div>
 				</div>	         		
-	       	</div>
-	       </aside>
+		       	</div>
+		       	<div class="mt-5">
+		       		<h6>Altre opere dello stesso autore:</h6>
+		       		<div class="card item collegamento">
+						<img src="img/catalogo/sigec-villani-arca-smontata.jpg" class="card-img-top" alt="Angelo reggicandelabro di Michelangelo Buonarroti">
+						<div class="card-body center">
+						    <h5 class="card-title">Esposizione di pezzi dell'Arca fatta in occasione del trasporto della salma nel rifugio</h5>
+						    <p class="card-text">Creatore: <b>Achille Villani&Figli</b></p>				                          
+						    <a href="" class="btn bottone-greyblue aside">Tutti i metadati</a>
+						  </div>
+					</div>	         		
+		       	</div>
+		       	<div class="mt-10 dc-xml-mobile">
+	           		<a href="item-fotografie-cimasa-rdf.xml"><button type="button" class="btn btn-outline-dark">RDF/ArCo</button></a>
+	           	</div>
+	       	</aside>
+
 	     </div>
 
 	     
@@ -358,33 +376,36 @@
 			
 			<div class="container-fluid footer">
 
-					<div class="row-footer">
-						<div class="col-md-4 col-sm-12 col-xs-12">			
-							<p class="firma1"><em><b>L'Arca di San Domenico Digital</b></em></p>
-							<p>Un progetto di valorizzazione digitale per il monumento funebre di San Domenico di Guzmán</p>
-							<p><a href="#"class="text-dark"><u>Contatti</u></a></p>
-						</div>
-						<div class="col-md-4 col-sm-12 col-xs-12">
-							<center><span class="logo-footer"><img src="img/logo/provabrand4.png"></span></center>
-						</div>
-						<div class="col-md-4 col-sm-12 col-xs-12">
-							<p class="firma2" id="credits-footer">&copy; Melissa Macaluso</p>
-							<p>Corso di Digital Humanities e Patrimonio Culturale 2020-2021</p>
-							<p>Corso di Laurea in Arti Visive, Università  di Bologna</p>
-						</div>
-						
+				<div class="row-footer">
+					<div class="col-md-4 col-sm-12 col-xs-12">			
+						<p class="firma1 trirong"><em><b>L' Arca di San Domenico Digital</b></em></p>
+						<p>Un progetto di valorizzazione digitale per il monumento funebre di San Domenico di Guzmán</p>
+						<p><a href="#" class="text-dark"><u>Scopri di più sul progetto</u></a></p>
 					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 center">
+						<span class="logo-footer center"><img src="img/logo/provabrand4.png" alt="logo del progetto"></span>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12">
+						<p class="firma2" id="credits-footer">&copy; Melissa Macaluso</p>
+						<p>AMaC -Arts, Museology and Curatorship, Università di Bologna, 2020-2021</p>
+						<p><a href="#" class="text-dark"><u>Contatti</u></a></p>
+						<p class="center ottimizzazione-footer"><em>-Sitoweb ottimizzato per versione mobile-</em></p>
+					</div>
+					
+				</div>
 
-					<div class="row-footer mt-10">
-	          				<div class="col-md-12 col-sm-12 col-xs-12">
-	            					<center><a href="https://creativecommons.org/licenses/by-nc/4.0/">Licenza Creative Commons BY - NC 4.0 International</a></center>
-	          				</div>
-	       				</div>
+				<div class="row-footer mt-10">
+		          	<div class="col-md-12 col-sm-12 col-xs-12 center">
+		            	<u><a href="https://creativecommons.org/licenses/by-nc/4.0/" class="text-dark">Licenza Creative Commons BY - NC 4.0 International</a></u>
+		          	</div>
+	        	</div>
 
 
-			</div>				
+			</div>
+						
 
-	</footer>     
+		</footer>
+
 
 		
 

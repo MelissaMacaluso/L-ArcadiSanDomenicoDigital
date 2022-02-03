@@ -32,58 +32,77 @@
   <!--BODY-->
   <body class="body">
     <!--Header-->
-    <header>
+    
+     <header>
 
-    <!--NAVBAR BOOTSTRAP-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    	  <a class="navbar-brand logo" href="index.html"><img src="img/logo/provabrand4.png" alt="logo del progetto"></a>
-    	  <a class="navbar-brand" href="index.html"><b>L' Arca di San Domenico Digital</b></a>
-    	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    	    <span class="navbar-toggler-icon"></span>
-    	  </button>
+       <!--NAVBAR BOOTSTRAP-->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
 
-    	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    	    <ul class="navbar-nav mr-auto">
-    	      <li class="nav-item">
-    	        <a class="nav-link" href="index.html">Home</a>
-    	      </li>
-    	      <li class="nav-item active">
-    	        <a class="nav-link" href="#">Catalogo<span class="sr-only">(current)</span></a>
-    	      </li>
-    	      <li class="nav-item dropdown">
-    	        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    	          Esplora
-    	        </a>
-    	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-    	          <a class="dropdown-item" href="arcaclick.html">Le sezioni dell'Arca</a>
-    	          <a class="dropdown-item" href="lineadeltempo.html">Linea del tempo</a>
-    	        </div>
-    	      </li>
-           	<li class="nav-item dropdown">
-    	        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    	          Approfondisci
-    	        </a>
-    	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-    	          <a class="dropdown-item" href="#">I servizi fotografici <br>di A. Villani&figli</a>
-    	          <a class="dropdown-item" href="#">Una cosmografia sacra di Bologna</a>
-    	        </div>
-    	      </li>
-    	    </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
-          </form>
-    	  </div>
-    	</nav>
+               <div class="contenitore-logo-titolo">
+               <a class="navbar-brand logo" href="index.html"><img src="img/logo/provabrand4.png" alt="logo del progetto"></a>
+               <a class="navbar-brand titolonav" href="index.html"><b>L' Arca di San Domenico Digital</b></a>
+               </div>
 
-    </header>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                         </li>
+                         <li class="nav-item active">
+                              <a class="nav-link" href="catalogo.html">Catalogo</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle esplora-mobile-nonvis" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Esplora
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                   <a class="dropdown-item" href="arcaclick.html">Le sezioni dell'Arca</a>
+                                   <a class="dropdown-item" href="lineadeltempo.html">Linea del tempo</a>
+                              </div>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link esplora-mobile-vis" href="arcaclick.html">Esplora L'Arca</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link esplora-mobile-vis"  href="lineadeltempo.html">Linea del tempo</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Approfondisci
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                   <a class="dropdown-item" href="#">Le reliquie tra furto e gelosia</a>                     
+                                   <a class="dropdown-item" href="#">I servizi fotografici <br>di A. Villani&figli</a> 
+                                   <a class="dropdown-item" href="#">Una cosmografia sacra</a>                     
+                              </div>
+                         </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                         <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Cerca</button>
+                    </form>
+               </div>
+          </nav>
+
+     </header>
+     <div class="lingue">        
+          <a href="#"><img src="img/index/UK.png" class="bandiera"></a>
+     </div>
+
+
+
+
+    
 
   	 <main class="background-ice">
       <!--ITEMS--> 
           <section class="container-fluid">
             <div class="row">
               <div class="col-md-12 pt-3">
-                <h2 class="text-dark text-center">Catalogo</h2>
+                <h2 class="text-dark text-center padding-titolo-mobile">Catalogo</h2>
 
               </div>
             </div>
@@ -91,7 +110,7 @@
             <div class="row">
               <!-- classi col-sm e col-xs rispettivamente per small devices (tablet) e extrasmall devices (mobile) -->
               <div class="col-md-2 col-sm-2 col-xs-12 mt-4 ">
-                <aside>
+                <aside class="aside-mobile">
 
                   <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
@@ -132,6 +151,8 @@
                                             <input type="radio">
                                             <label>Fra' Guglielmo</label><br>
                                             <input type="radio">
+                                            <label>Lapo</label><br>
+                                            <input type="radio">
                                             <label>Niccolò dell'Arca</label><br>
                                             <input type="radio">
                                             <label>Michelangelo Buonarroti</label><br>
@@ -139,6 +160,8 @@
                                             <label>Alfonso Lombardi</label><br>
                                             <input type="radio">
                                             <label>Girolamo Cortellini</label><br>
+                                            <input type="radio">
+                                            <label>Jacopo Roseto</label><br>
                                             <input type="radio">
                                             <label>A. Villani&Figli</label><br>
                                             <input type="radio">
@@ -186,7 +209,10 @@
                                             <input type="radio">
                                             <label>Cimasa</label><br>
                                             <input type="radio">
-                                            <label>Arca intera</label><br>                                      
+                                            <label>Arca intera</label><br>
+                                            <input type="radio">
+                                            <label>Il reliquiario</label><br>                                      
+                                      
 
                             </div>
                         </div>
@@ -206,13 +232,13 @@
                           <a class="nav-link active" href="#" title="Tutti gli oggetti catalogati">Tutto</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#" title="Solo sculture catalogate">Schede opera</a>
+                          <a class="nav-link" href="#" title="Solo sculture catalogate">Opere</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#" title="Solo fotografie catalogate">Schede foto</a>
+                          <a class="nav-link" href="#" title="Solo fotografie catalogate">Fotografie</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="#" title="Solo testi catalogati">Fonti Testuali</a>
+                          <a class="nav-link" href="#" title="Solo testi catalogati">Fonti</a>
                       </li>
                     </ul>
                   </div>
@@ -230,7 +256,7 @@
                           <ul class="list-group list-group-flush">                    
                             <li class="list-group-item">
                               <span>Creatore:</span>
-                              <b><a href="https://viaf.org/viaf/30311644/" target="_blank" title= "Identificativo VIAF di Buonarroti, Michelangelo">Buonarroti, Michelangelo<sup>VIAF</sup></a></b>
+                              <b>Buonarroti, Michelangelo<a href="http://viaf.org/viaf/24585191" target="_blank" title= "Identificativo VIAF di Buonarroti, Michelangelo" class="text-dark"><sup><u>VIAF</u></sup></a></b>
                             </li>
                             <li class="list-group-item">
                               <span>Data:</span>
@@ -238,10 +264,10 @@
                             </li>
                             <li class="list-group-item">
                               <span>Posizione attuale:</span>
-                              <b><a href="https://www.geonames.org/11127239/s-domenico.html">Basilica di San Domenico<sup>GeoNames</sup></a></b>
+                              <b>Basilica di San Domenico<a href="https://www.geonames.org/11127239/s-domenico.html" class="text-dark"><sup><u>GeoNames</u></sup></a></b>
                             </li>         
                           </ul>
-                        <center><span class="center"><a href="#" class="btn bottone-greyblue bottone-metadati1">Tutti i metadati</a></span></center>
+                          <span class="pl-25"><a href="#" class="btn bottone-greyblue bottone-metadati1">Tutti i metadati</a></span>
                       </div>
                     </div>           
                   </div> 
@@ -256,8 +282,8 @@
                           <ul class="list-group list-group-flush">                    
                             <li class="list-group-item">
                               <span>Creatore:</span>
-                              <b><a href="http://viaf.org/viaf/95710492">Pisano, Nicola<sup>VIAF</sup>; </a></b>
-                              <b><a href="http://viaf.org/viaf/265308757">Arnolfo, di Cambio<sup>VIAF</sup></a></b>
+                              <b>Pisano, Nicola<a href="http://viaf.org/viaf/95710492" class="text-dark"><sup><u>VIAF</u></sup></a></b>;
+                              <b>Arnolfo, di Cambio<a href="http://viaf.org/viaf/265308757" class="text-dark"><sup><u>VIAF</u></sup></a></b>
                             </li>
                             <li class="list-group-item">
                               <span>Data:</span>
@@ -265,10 +291,10 @@
                             </li>
                             <li class="list-group-item">
                               <span>Posizione attuale:</span>
-                              <b><a href="https://www.geonames.org/11127239/s-domenico.html">Basilica di San Domenico<sup>GeoNames</sup></a></b>
+                              <b>Basilica di San Domenico<a href="https://www.geonames.org/11127239/s-domenico.html" class="text-dark"><sup><u>GeoNames</u></sup></a></b>
                             </li>         
                           </ul>
-                        <center><span class="center"><a href="#" class="btn bottone-greyblue">Tutti i metadati</a></span></center>
+                          <span class="pl-25"><a href="#" class="btn bottone-greyblue">Tutti i metadati</a></span>
                       </div>
                     </div>           
                   </div>
@@ -284,12 +310,12 @@
                         <ul class="list-group list-group-flush">
                           <li class="list-group-item">
                             <span>Creatore:</span>
-                            <b><a href="http://viaf.org/viaf/95710492">Pisano, Nicola<sup>VIAF</sup>; </a></b>
-                            <b><a href="http://viaf.org/viaf/265308757">Arnolfo, di Cambio<sup>VIAF</sup>; </a></b>
-                            <b><a href="https://viaf.org/viaf/30330212">Niccolò, Dell'Arca<sup>VIAF</sup>; </a></b>
-                            <b><a href="https://viaf.org/viaf/30311644/" target="_blank" title= "Identificativo VIAF di Buonarroti, Michelangelo">Buonarroti, Michelangelo<sup>VIAF</sup></a></b>
-                            <b><a href="http://viaf.org/viaf/95854275">Lombardi, Alfonso<sup>VIAF</sup>; </a></b>
-                            <b><a href="http://viaf.org/viaf/95904431">Cortellini, Girolamo<sup>VIAF</sup>; </a></b>                    
+                            <b>Pisano, Nicola<a href="http://viaf.org/viaf/95710492" class="text-dark"><sup><u>VIAF</u></sup></a></b>;
+                            <b>Arnolfo, di Cambio<a href="http://viaf.org/viaf/265308757" class="text-dark"><sup><u>VIAF</sup></u></a></b>;
+                            <b>Niccolò, Dell'Arca<a href="https://viaf.org/viaf/30330212" class="text-dark"><sup><u>VIAF</sup></u></a></b>;
+                            <b>Buonarroti, Michelangelo<a href="http://viaf.org/viaf/24585191" target="_blank" title= "Identificativo VIAF di Buonarroti, Michelangelo" class="text-dark"><sup><u>VIAF</u></sup></a></b>;
+                            <b>Lombardi, Alfonso<a href="http://viaf.org/viaf/95854275" class="text-dark"><sup><u>VIAF</u></sup></a></b>;
+                            <b>Cortellini, Girolamo<a href="http://viaf.org/viaf/95904431" class="text-dark"><sup><u>VIAF</u></sup></a></b>                    
                           </li>
                           <li class="list-group-item">
                             <span>Data:</span>
@@ -297,11 +323,11 @@
                           </li>
                           <li class="list-group-item">
                             <span>Posizione attuale:</span>
-                            <b><a href="https://www.geonames.org/11127239/s-domenico.html">Basilica di San Domenico<sup>GeoNames</sup></a></b>
+                            <b>Basilica di San Domenico<a href="https://www.geonames.org/11127239/s-domenico.html" class="text-dark"><sup><u>GeoNames</u></sup></a></b>
                           </li>         
                         </ul>
 
-                        <center><span class="center"><a href="#" class="btn bottone-greyblue bottone-metadati3">Tutti i metadati</a></span></center>
+                        <span class="pl-25"><a href="#" class="btn bottone-greyblue bottone-metadati3">Tutti i metadati</a></span>
                       </div>
                     </div>           
                   </div>
@@ -319,7 +345,7 @@
                         <ul class="list-group list-group-flush">
                           <li class="list-group-item">
                             <span>Creatore:</span>
-                            <b><a href="http://viaf.org/viaf/140821088" target="_blank" title= "Identificativo VIAF di A. Villani & figli">Achille Villani & figli<sup>VIAF</sup></a></b>
+                            <b>Achille Villani & figli<a href="http://viaf.org/viaf/140821088" target="_blank" title= "Identificativo VIAF di A. Villani & figli" class="text-dark"><sup><u>VIAF</u></sup></a></b>
                           </li>
                           <li class="list-group-item">
                             <span>Data:</span>
@@ -330,7 +356,7 @@
                             <b>Palazzo dall'Armi Marescalchi, Bologna</b>
                           </li>         
                         </ul>
-                        <center><span class="center"><a href="#" class="btn bottone-greyblue bottone-metadati4">Tutti i metadati</a></span></center>
+                        <span class="pl-25"><a href="#" class="btn bottone-greyblue bottone-metadati4">Tutti i metadati</a></span>
                       </div>                
                     </div>           
                   </div>
@@ -345,7 +371,7 @@
                         <ul class="list-group list-group-flush">
                           <li class="list-group-item">
                             <span>Creatore:</span>
-                            <b><a href="http://viaf.org/viaf/140821088" target="_blank" title= "Identificativo VIAF di A. Villani & figli">Achille Villani & figli<sup>VIAF</sup></a></b>
+                            <b>Achille Villani & figli<a href="http://viaf.org/viaf/140821088" target="_blank" title= "Identificativo VIAF di A. Villani & figli" class="text-dark"><sup><u>VIAF</u></sup></a></b>
                           </li>
                           <li class="list-group-item">
                             <span>Data:</span>
@@ -356,7 +382,7 @@
                             <b>Palazzo dall'Armi Marescalchi, Bologna</b>
                           </li>         
                         </ul>
-                        <center><span class="center"><a href="#" class="btn bottone-greyblue bottone-metadati5">Tutti i metadati</a></span></center>
+                        <span class="pl-25"><a href="#" class="btn bottone-greyblue bottone-metadati5">Tutti i metadati</a></span>
                       </div>                
                     </div>           
                   </div>
@@ -370,18 +396,18 @@
                         <ul class="list-group list-group-flush">
                           <li class="list-group-item">
                             <span>Creatore:</span>
-                            <b><a href="http://viaf.org/viaf/140821088" target="_blank" title= "Identificativo VIAF di A. Villani & figli">Achille Villani & figli<sup>VIAF</sup></a></b>
+                            <b>Achille Villani & figli<a href="http://viaf.org/viaf/140821088" target="_blank" title= "Identificativo VIAF di A. Villani & figli" class="text-dark"><sup><u>VIAF</u></sup></a></b>
                           </li>
                           <li class="list-group-item">
                             <span>Data:</span>
-                            <b>1264-1532</b>
+                            <b>1943</b>
                           </li>
                           <li class="list-group-item">
                             <span>Posizione attuale:</span>
                             <b>Palazzo dall'Armi Marescalchi, Bologna</b>
                           </li>         
                         </ul>
-                        <center><span class="center"><a href="item-fotografie-cimasa.html" class="btn bottone-greyblue bottone-metadati6">Tutti i metadati</a></span></center>
+                        <span class="pl-25"><a href="item-fotografie-cimasa.html" class="btn bottone-greyblue bottone-metadati6">Tutti i metadati</a></span>
                       </div>                
                     </div>           
                   </div>  
@@ -401,7 +427,7 @@
                           <ul class="list-group list-group-flush">                    
                             <li class="list-group-item">
                               <span>Creatore:</span>
-                              <b><a href="http://viaf.org/viaf/100198644">Da Varazze, Iacopo<sup>VIAF</sup></a></b>
+                              <b>Da Varazze, Iacopo<a href="http://viaf.org/viaf/100198644" class="text-dark"><sup><u>VIAF</u></sup></a></b>
                             </li>
                             <li class="list-group-item">
                               <span>Data:</span>
@@ -409,10 +435,10 @@
                             </li>
                             <li class="list-group-item">
                               <span>Istituzione fornitrice:</span>
-                              <b><a href="http://www.geonames.org/12122872/biblioteca-%22ezio-raimondi%22.html">Biblioteca "Ezio Raimondi" di Filologia Classica e Italianistica<sup>GeoNames</sup></a></b>
+                              <b>Biblioteca "Ezio Raimondi" di Filologia Classica e Italianistica<a href="http://www.geonames.org/12122872/biblioteca-%22ezio-raimondi%22.html" class="text-dark"><sup><u>GeoNames</u></sup></a></b>
                             </li>         
                           </ul>
-                        <center><span class="center"><a href="item-legenda-aurea.html" class="btn bottone-greyblue bottone-metadati7">Tutti i metadati</a></span></center>
+                          <span class="pl-25"><a href="item-legenda-aurea.html" class="btn bottone-greyblue bottone-metadati7">Tutti i metadati</a></span>
                       </div>
                     </div>           
                   </div> 
@@ -426,7 +452,7 @@
                           <ul class="list-group list-group-flush">                    
                             <li class="list-group-item">
                               <span>Creatore:</span>
-                              <b><a href="http://viaf.org/viaf/186588552">Humberti De Romanis<sup>VIAF</sup></a></b>
+                              <b>Humberti De Romanis<a href="http://viaf.org/viaf/186588552" class="text-dark"><sup><u>VIAF</u></sup></a></b>
                             </li>
                             <li class="list-group-item">
                               <span>Data:</span>
@@ -434,10 +460,10 @@
                             </li>
                             <li class="list-group-item">
                               <span>Istituzione fornitrice:</span>
-                              <b><a href="http://www.geonames.org/12122872/biblioteca-%22ezio-raimondi%22.html">Biblioteca "Ezio Raimondi" di Filologia Classica e Italianistica<sup>GeoNames</sup></a></b>
+                              <b>Biblioteca "Ezio Raimondi" di Filologia Classica e Italianistica<a href="http://www.geonames.org/12122872/biblioteca-%22ezio-raimondi%22.html" class="text-dark"><sup><u>GeoNames</u></sup></a></b>
                             </li>         
                           </ul>
-                        <center><span class="center"><a href="#" class="btn bottone-greyblue bottone-metadati8">Tutti i metadati</a></span></center>
+                          <span class="pl-25"><a href="#" class="btn bottone-greyblue bottone-metadati8">Tutti i metadati</a></span>
                       </div>
                     </div>           
                   </div> 
@@ -451,7 +477,7 @@
                           <ul class="list-group list-group-flush">                    
                             <li class="list-group-item">
                               <span>Creatore:</span>
-                              <b><a href="https://viaf.org/viaf/30311644/" target="_blank" title= "Identificativo VIAF di Buonarroti, Michelangelo">Buonarroti, Michelangelo<sup>VIAF</sup></a></b>
+                              <b>Buonarroti, Michelangelo<a href="http://viaf.org/viaf/24585191" target="_blank" title= "Identificativo VIAF di Buonarroti, Michelangelo" class="text-dark"><sup><u>VIAF</u></sup></a></b>
                             </li>
                             <li class="list-group-item">
                               <span>Data:</span>
@@ -459,10 +485,10 @@
                             </li>
                             <li class="list-group-item">
                               <span>Posizione attuale:</span>
-                              <b><a href="https://www.geonames.org/11127239/s-domenico.html">Basilica di San Domenico<sup>GeoNames</sup></a></b> 
+                              <b>Basilica di San Domenico<a href="https://www.geonames.org/11127239/s-domenico.html" class="text-dark"><sup><u>GeoNames</u></sup></a></b> 
                             </li>         
                           </ul>
-                        <center><span class="center"><a href="item-san-petronio-michelangelo.html" class="btn bottone-greyblue bottone-metadati9">Tutti i metadati</a></span></center>
+                          <span class="pl-25"><a href="item-san-petronio-michelangelo.html" class="btn bottone-greyblue bottone-metadati9">Tutti i metadati</a></span>
                       </div>
                     </div>           
                   </div>
@@ -473,7 +499,7 @@
 
                 <div class="col-md-12">
 
-                 <center><nav aria-label="nav-pagination ">
+                 <nav aria-label="nav-pagination center ">
                     <ul class="pagination scorri-pagine">
                       <li class="page-item disabled">
                         <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
@@ -488,7 +514,7 @@
                         <a class="page-link" href="#">Next</a>
                       </li>
                     </ul>
-                  </nav></center>
+                  </nav>
                 </div>
 
              <!--chiusura div items-->
@@ -499,31 +525,43 @@
 
   	
   <!--footer-->
-  	<footer>      
+  	<footer>
+      
       <div class="container-fluid footer">
-          <div class="row-footer">
-            <div class="col-md-4 col-sm-12 col-xs-12">      
-              <p class="firma1"><em><b>L'Arca di San Domenico Digital</b></em></p>
-              <p>Un progetto di valorizzazione digitale per il monumento funebre di San Domenico di Guzmán</p>
-              <p><a href="#"class="text-dark"><u>Contatti</u></a></p>
-            </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
-              <center><span class="logo-footer"><img src="img/logo/provabrand4.png" alt="logo del progetto"></span></center>
-            </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
-              <p class="firma2" id="credits-footer">&copy; Melissa Macaluso</p>
-              <p>Corso di Digital Humanities e Patrimonio Culturale 2020-2021</p>
-              <p>Corso di Laurea in Arti Visive, Università  di Bologna</p>
-            </div>            
+
+        <div class="row-footer">
+          <div class="col-md-4 col-sm-12 col-xs-12">      
+            <p class="firma1 trirong"><em><b>L' Arca di San Domenico Digital</b></em></p>
+            <p>Un progetto di valorizzazione digitale per il monumento funebre di San Domenico di Guzmán</p>
+            <p><a href="#" class="text-dark"><u>Scopri di più sul progetto</u></a></p>
           </div>
-          <div class="row-footer mt-10">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <center><a href="https://creativecommons.org/licenses/by-nc/4.0/">Licenza Creative Commons BY - NC 4.0 International</a></center>
-            </div>
+          <div class="col-md-4 col-sm-12 col-xs-12 center">
+            <span class="logo-footer"><img src="img/logo/provabrand4.png" alt="logo del progetto"></span>
           </div>
-      </div>  
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <p class="firma2" id="credits-footer">&copy; Melissa Macaluso</p>
+            <p>AMaC -Arts, Museology and Curatorship, Università di Bologna, 2020-2021</p>
+            <p><a href="#" class="text-dark"><u>Contatti</u></a></p>
+            <p class="center ottimizzazione-footer"><em>-Sitoweb ottimizzato per versione mobile-</em></p>
+          </div>
+          
+        </div>
+
+        <div class="row-footer mt-10">
+                <div class="col-md-12 col-sm-12 col-xs-12 center">
+                  <u><a href="https://creativecommons.org/licenses/by-nc/4.0/" class="text-dark">Licenza Creative Commons BY - NC 4.0 International</a></u>
+                </div>
+            </div>
+
+
+      </div>
+            
+
     </footer>
 
+
+
+    
 
 
   <!--collegamento a JQuery-->
