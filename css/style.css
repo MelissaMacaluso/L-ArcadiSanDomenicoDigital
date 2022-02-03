@@ -1,3 +1,236 @@
+
+.popup > .close {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 4px 10px;
+}
+
+.popup:target {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup {
+  padding-top: 10px;
+  background-color: rgba(17, 16, 17, 0.76);
+  color: white;
+  font-weight: 100;
+  font-size: 14px;
+  position: absolute;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 300ms, transform 300ms;
+  height: auto;
+  margin-left: 50px;
+  padding: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 60%;
+}
+
+.pp1{
+top:150px;
+text-align: center;
+
+}
+
+.pp2{
+	top: 250px;
+	text-align: center;
+}
+
+
+.cursor {
+  outline: 5px solid var(--red);
+}
+
+
+
+/*MEDIAQUERY per visualizzazione mobile*/
+
+/*mediaquery HOME*/
+
+@media screen and (max-width: 600px) {
+ a.titolonav{
+    font-size: 13px;
+    margin-top: 3%;
+  }
+  .logo{
+  	float: right;
+  	  }
+  .navbar-brand img
+  {
+  	width: 35px!important;
+  	height: 35px!important;
+  }
+
+  div.dropdown-menu{
+  	display: none!important;
+  }
+
+  div.contenitore-logo-titolo{
+  	width: 80%;
+  }
+
+  a.dropdown-toggle::after{
+  	display: none;
+  }
+  form.form-inline{
+  	display: none;
+  }
+
+  a.esplora-mobile-vis{
+  	display: block!important;
+  }
+
+  a.esplora-mobile-nonvis{
+  	display: none!important;
+  }
+
+  .navbar{
+  	position: fixed;
+  	z-index: 100;
+  	width: 100%;
+
+  }
+
+ div#carouselExampleCaptions{
+ 	display: none;
+ }
+
+.sezione-progetto{
+	display: none;
+}
+
+.background-arca{
+	background-image: url(../img/index/NP-dettaglio.jpg)!important;
+
+}
+.lingue{
+	top: 10%!important;
+}
+
+img.bandiera{
+	height: 7%!important;
+	width: 7.5%!important;
+}
+.bio-domenico{
+	display: none;
+}
+
+.storia-inbreve{
+	padding-top: 5px;
+}
+.caption-background-nonvis-mobile{
+	display: none!important;
+}
+
+.caption-background-vis-mobile{
+	display: block!important;
+}
+
+p.card-catalogo-mobile-nonvis {
+	display: none!important;
+}
+
+p.card-catalogo-mobile-vis{
+	display: block!important;
+}
+.localizzazione-iframe{
+	display: none;
+}
+.approfondimento1-nonvismobile{
+	display: none!important;
+}
+
+.approfondimento1-vismobile{
+display: block!important;
+}
+
+.approfondimento2-nonvismobile{
+	display: none!important;
+}
+
+.approfondimento2-vismobile{
+display: block!important;
+}
+
+
+.approfondimento3-nonvismobile{
+	display: none!important;
+}
+
+.approfondimento3-vismobile{
+display: block!important;
+}
+
+.ottimizzazione-footer {
+	display: block!important;
+}
+
+.padding-titolo-mobile{
+	padding-top: 65px;
+	font-size: 120%;
+}
+
+.nomobile{
+	display: none;
+}
+
+.aside-mobile{
+	display: none;
+}
+
+.tags-tabella{
+	display: none;
+}
+
+
+.dc-xml-mobile{
+	display: block!important;
+}
+
+.autority{
+	display: none;
+}
+
+.bottone-strumenti1, .bottone-strumenti3, .bottone-strumenti2, .bottone-approfondimenti2, .bottone-approfondimenti3{
+	margin-top:0px!important;
+}
+
+.desktop{
+	display: none;
+}
+ .cell{
+ 	display: block!important;
+ }
+
+.opacity{
+	opacity: 0.9;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 405px) and (max-width: 420px) {
+ a.titolonav{
+    font-size: 16px;
+    margin-top: 3%;
+  }
+}
+
+
+
+.cell{
+	display: none;
+}
+
 /*disposizione centrale*/
 .center {
 	text-align: center!important;
@@ -10,14 +243,22 @@
 
 
 /*padding e margini*/
-pb-10{ padding-top: 10px;
+.pb-10{ padding-top: 10px;
 
 }
 
+
+.mra.mla{
+	margin-right: auto;
+	margin-left: auto;
+}
 .mt-5 {
 	margin-top: 1.5rem!important;
 }
 
+.mt-geo {
+	margin-top: 3rem!important;
+}
 
 .mt-6 {
 	margin-top: 5rem!important;
@@ -47,6 +288,13 @@ pb-10{ padding-top: 10px;
 	padding-right: 20px!important;
 }
 
+.pl-25{
+	padding-left: 25%;
+}
+
+.pl-30{
+	padding-left: 30%;
+}
 
 main{
 	padding-bottom: 40px;
@@ -84,6 +332,8 @@ main{
 	color: #FFCC99;
 }
 
+
+
 /*Trirong text style*/
 
 .trirong{
@@ -109,11 +359,7 @@ h2{
 	font-size: 25px;
 }
 
-@media screen and (max-width: 400px) {
-  .navbar-brand {
-    font-size: 23px;
-  }
- }
+
 
 .navbar-brand img {
 	height: 50px;
@@ -126,15 +372,27 @@ h2{
 }
 
 
-
+a.esplora-mobile-vis{
+	display: none;
+}
 
 .dropdown-item {
 	color: #29000A!important;
 }
 
 
+img.bandiera{
+	height: 3%;
+	width: 3.5%;
+	float: right;
+}
 
-
+.lingue{
+	position: absolute;
+	width: 100%;
+	top: 14%;
+	z-index: 80;
+}
 	
 /*carousel HOME*/
 .carousel-item {
@@ -233,6 +491,32 @@ h2{
 	object-fit: cover!important;
 }
 
+
+
+
+/*card catalogo versione desktop*/
+p.card-catalogo-mobile-vis{
+	display: none;
+}
+
+/*caption cimasa versione desktop*/
+.caption-background-vis-mobile{
+	display: none;
+}
+
+/*card approfondimenti versione desktop*/
+.approfondimento1-vismobile{
+display: none;
+}
+
+.approfondimento2-vismobile{
+display: none;
+}
+
+.approfondimento3-vismobile{
+display: none;
+}
+
 /*bottoni strumenti esplorazione home*/
 .bottone-strumenti1{
 	margin-top: 0px;
@@ -248,12 +532,18 @@ h2{
 
  }
 
- .bottone-approfondimenti2{
+ .bottone-approfondimenti3{
  	margin-top: 50px;
  }
 
+  .bottone-approfondimenti2{
+ 	margin-top: 70px;
+ }
+
+
 
 /*bottoni metadati catalogo*/
+
 
 .bottone-metadati1{
 	margin-top: 90px;
@@ -393,6 +683,10 @@ ul.pagination li.page-item a.page-link.active{
 }
 
 
+.dc-xml-mobile{
+	display: none;
+}
+
 /*carousel item specifico*/
 
 .card.specific{
@@ -530,7 +824,7 @@ ul.pagination li.page-item a.page-link.active{
 }
 
 .collegamento .play{
-	background-image: url(../img/persone/framepaolucci.PNG);
+	background-image: url(../img/persone/framegetty.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -559,6 +853,7 @@ ul.pagination li.page-item a.page-link.active{
 footer {
 	background-color: #FFCC99 ;
 	}
+
 
 .container-fluid.footer {
 	background-color:#FFCC99 ; 
@@ -610,6 +905,9 @@ footer {
 	width: 150px;
 }
 
+.ottimizzazione-footer {
+	display: none;
+}
 
 @media screen and (max-width: 420px) {
   .row-footer {
