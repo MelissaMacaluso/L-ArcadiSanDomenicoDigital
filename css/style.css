@@ -43,6 +43,15 @@ text-align: center;
 	text-align: center;
 }
 
+.pp3{
+	top: 250px;
+	text-align: center;
+}
+
+.pp5{
+	top: 100px;
+	text-align: center;
+}
 
 .cursor {
   outline: 5px solid var(--red);
