@@ -94,16 +94,44 @@ text-align: center;
 			}
     }
 
-/*iphone 11*/
+
+
+/*Iphone 11*/
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) { 
+
+    	.padding-titolo-mobile{
+    		padding-top: 180px!important;
+    		top: 20%!important;
+    	}
+    }
+
+
+/*Iphone 11 Pro*/
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+    	 .padding-titolo-mobile{
+    		padding-top: 180px!important;
+    		top: 20%!important;
+    	}
+
+     }
+
+
+/*iphone 11 Pro Max*/
 @media only screen 
     and (device-width : 414px) 
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 3) {
     .padding-titolo-mobile{
     	padding-top: 180px!important;
+    	top: 20%!important;
     	} 
     }
-
 
 
 @media screen and (max-width: 600px) {
