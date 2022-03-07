@@ -63,6 +63,38 @@ text-align: center;
 
 /*mediaquery HOME*/
 
+
+/*iphone X*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+    	.padding-titolo-mobile{
+    		padding-top: 500px;
+      		}
+    }
+
+/*iphone 8*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+    .padding-titolo-mobile{
+    	padding-top: 500px;
+    	} 
+    }
+
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 3) {
+    .padding-titolo-mobile{
+    	padding-top: 500px!important;
+    	} 
+    }
+
+
+
 @media screen and (max-width: 600px) {
  a.titolonav{
     font-size: 13px;
@@ -76,6 +108,7 @@ text-align: center;
   	width: 35px!important;
   	height: 35px!important;
   }
+
 
   div.dropdown-menu{
   	display: none!important;
