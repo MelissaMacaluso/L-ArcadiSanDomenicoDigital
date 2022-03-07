@@ -119,7 +119,7 @@ text-align: center;
     and (-webkit-device-pixel-ratio: 3) {
     	 .padding-titolo-mobile{
     		padding-top: 180px!important;
-    		top: 20%!important;
+    		top: 80%!important;
     	}
 
      }
