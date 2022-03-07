@@ -70,7 +70,7 @@ text-align: center;
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) { 
     	.padding-titolo-mobile{
-    		padding-top: 500px;
+    		padding-top: 500px!important;
       		}
     }
 
@@ -80,7 +80,7 @@ text-align: center;
     and (device-height : 667px) 
     and (-webkit-device-pixel-ratio : 2) {
     .padding-titolo-mobile{
-    	padding-top: 500px;
+    	padding-top: 500px!important;
     	} 
     }
 
